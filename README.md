@@ -268,27 +268,29 @@ Here is the table based on the provided data:
 
 Indic Parler-TTS has been evaluated using a MOS-like framework by native and non-native speakers. The results highlight its exceptional performance in generating natural and intelligible speech, especially for native speakers of Indian languages.  
 
-| **Language** | **Native Speaker Score (%)** | **Highlights**                                                                                     |
-|--------------|-------------------------------|--------------------------------------------------------------------------------------------------|
-| Assamese     | 87.36 ± 1.81                 | Clear, natural synthesis with excellent expressiveness.                                          |
-| Bengali      | 86.16 ± 1.85                 | High-quality outputs with smooth intonation.                                                    |
-| Bodo         | 94.47 ± 4.12                 | Near-perfect accuracy for a lesser-resourced language.                                          |
-| Dogri        | 88.80 ± 3.57                 | Robust and consistent synthesis for Dogri.                                                     |
-| Gujarati     | 75.36 ± 1.78                 | Strong clarity and naturalness even for smaller languages.                                      |
-| Hindi        | 84.79 ± 2.09                 | Reliable and expressive outputs for India's most widely spoken language.                       |
-| Kannada      | 88.17 ± 2.81                 | Highly natural and accurate voices for Kannada.                                                |
-| Konkani      | 76.60 ± 4.14                 | Produces clear and natural outputs for diverse speakers.                                       |
-| Maithili     | 95.36 ± 2.52                 | Exceptionally accurate, showcasing fine-tuning success.                                         |
-| Malayalam    | 86.54 ± 1.67                 | Smooth, high-quality synthesis with expressive outputs.                                        |
-| Manipuri     | 85.63 ± 2.60                 | Natural intonation with minimal errors.                                                        |
-| Marathi      | 76.96 ± 1.45                 | Maintains clarity and naturalness across speakers.                                             |
-| Nepali       | 80.02 ± 5.75                 | Strong synthesis for native and proximal Nepali speakers.                                      |
-| Odia         | 88.94 ± 3.26                 | High expressiveness and quality for Odia speakers.                                             |
-| Sanskrit     | 99.79 ± 0.34                 | Near-perfect synthesis, ideal for classical use cases.                                         |
-| Sindhi       | 76.46 ± 1.29                 | Clear and natural voices for underrepresented languages.                                       |
-| Tamil        | 75.48 ± 2.18                 | Delivers intelligible and expressive speech.                                                   |
-| Telugu       | 88.54 ± 1.86                 | Smooth and natural tonal quality for Telugu.                                                   |
-| Urdu         | 77.75 ± 3.82                 | Produces high-quality speech despite resource constraints.                                     |
+**NSS** stands for **Native Speaker Score**:
+
+| **Language**   | **NSS Pretrained (%)** | **NSS Finetuned (%)** | **Highlights**                                                                                     |
+|----------------|-------------------------|------------------------|--------------------------------------------------------------------------------------------------|
+| Assamese       | 82.56 ± 1.80           | 87.36 ± 1.81          | Clear, natural synthesis with excellent expressiveness.                                          |
+| Bengali        | 77.41 ± 2.14           | 86.16 ± 1.85          | High-quality outputs with smooth intonation.                                                    |
+| Bodo           | 90.83 ± 4.54           | 94.47 ± 4.12          | Near-perfect accuracy for a lesser-resourced language.                                          |
+| Dogri          | 82.61 ± 4.98           | 88.80 ± 3.57          | Robust and consistent synthesis for Dogri.                                                     |
+| Gujarati       | 75.28 ± 1.94           | 75.36 ± 1.78          | Strong clarity and naturalness even for smaller languages.                                      |
+| Hindi          | 83.43 ± 1.53           | 84.79 ± 2.09          | Reliable and expressive outputs for India's most widely spoken language.                       |
+| Kannada        | 77.97 ± 3.43           | 88.17 ± 2.81          | Highly natural and accurate voices for Kannada.                                                |
+| Konkani        | 87.20 ± 3.58           | 76.60 ± 4.14          | Produces clear and natural outputs for diverse speakers.                                       |
+| Maithili       | 89.07 ± 4.47           | 95.36 ± 2.52          | Exceptionally accurate, showcasing fine-tuning success.                                         |
+| Malayalam      | 82.02 ± 2.06           | 86.54 ± 1.67          | Smooth, high-quality synthesis with expressive outputs.                                        |
+| Manipuri       | 89.58 ± 1.33           | 85.63 ± 2.60          | Natural intonation with minimal errors.                                                        |
+| Marathi        | 73.81 ± 1.93           | 76.96 ± 1.45          | Maintains clarity and naturalness across speakers.                                             |
+| Nepali         | 64.05 ± 8.33           | 80.02 ± 5.75          | Strong synthesis for native and proximal Nepali speakers.                                      |
+| Odia           | 90.28 ± 2.52           | 88.94 ± 3.26          | High expressiveness and quality for Odia speakers.                                             |
+| Sanskrit       | 99.71 ± 0.58           | 99.79 ± 0.34          | Near-perfect synthesis, ideal for classical use cases.                                         |
+| Sindhi         | 76.44 ± 2.26           | 76.46 ± 1.29          | Clear and natural voices for underrepresented languages.                                       |
+| Tamil          | 69.68 ± 2.73           | 75.48 ± 2.18          | Delivers intelligible and expressive speech.                                                   |
+| Telugu         | 89.77 ± 2.20           | 88.54 ± 1.86          | Smooth and natural tonal quality for Telugu.                                                   |
+| Urdu           | 77.15 ± 3.47           | 77.75 ± 3.82          | Produces high-quality speech despite resource constraints.                                     |
 
 **Key Strengths**:  
 - Exceptional performance for native speakers, with top scores for **Maithili (95.36)**, **Sanskrit (99.79)**, and **Bodo (94.47)**.  
