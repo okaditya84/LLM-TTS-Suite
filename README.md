@@ -29,7 +29,7 @@ datasets:
 - ai4b-hf/GLOBE-annotated
 ---
 
-<img src="https://huggingface.co/datasets/parler-tts/images/resolve/main/thumbnail.png" alt="Parler Logo" width="800" style="margin-left:'auto' margin-right:'auto' display:'block'"/>
+<img src="https://huggingface.co/datasets/parler-tts/images/resolve/main/Indic%20Parler-TTS.png" alt="Indic Parler Logo" width="800" style="margin-left:'auto' margin-right:'auto' display:'block'"/>
 
 # Indic Parler-TTS
 
