@@ -39,7 +39,7 @@ datasets:
 
 **Indic Parler-TTS** is a multilingual Indic extension of [Parler-TTS Mini](https://huggingface.co/parler-tts/parler-tts-mini-v1.1).
 
-It is a fine-tuned version of [Indic Parler-TTS Pretrained](https://huggingface.co/ai4b-hf/indic-parler-tts-pretrained-v3), trained on a **1,806 hours** multilingual Indic and English dataset.
+It is a fine-tuned version of [Indic Parler-TTS Pretrained](https://huggingface.co/ai4bharat/indic-parler-tts-pretrained), trained on a **1,806 hours** multilingual Indic and English dataset.
 
 **Indic Parler-TTS Mini** can officially speak in 20 Indic languages, making it comprehensive for regional language technologies, and in English. The **21 languages** supported are: Assamese, Bengali, Bodo, Dogri, English, Gujarati, Hindi, Kannada, Konkani, Maithili, Malayalam, Manipuri, Marathi, Nepali, Odia, Sanskrit, Santali, Sindhi, Tamil, Telugu, and Urdu.
 
@@ -117,8 +117,8 @@ import soundfile as sf
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
-model = ParlerTTSForConditionalGeneration.from_pretrained("ai4b-hf/indic-parler-tts-pretrained-then-finetuned").to(device)
-tokenizer = AutoTokenizer.from_pretrained("ai4b-hf/indic-parler-tts-pretrained-then-finetuned")
+model = ParlerTTSForConditionalGeneration.from_pretrained("ai4bharat/indic-parler-tts").to(device)
+tokenizer = AutoTokenizer.from_pretrained("ai4bharat/indic-parler-tts")
 description_tokenizer = AutoTokenizer.from_pretrained(model.config.text_encoder._name_or_path)
 
 prompt = "Hey, how are you doing today?"
@@ -156,8 +156,8 @@ import soundfile as sf
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
-model = ParlerTTSForConditionalGeneration.from_pretrained("ai4b-hf/indic-parler-tts-pretrained-then-finetuned").to(device)
-tokenizer = AutoTokenizer.from_pretrained("ai4b-hf/indic-parler-tts-pretrained-then-finetuned")
+model = ParlerTTSForConditionalGeneration.from_pretrained("ai4bharat/indic-parler-tts").to(device)
+tokenizer = AutoTokenizer.from_pretrained("ai4bharat/indic-parler-tts")
 description_tokenizer = AutoTokenizer.from_pretrained(model.config.text_encoder._name_or_path)
 
 prompt = "अरे, तुम आज कैसे हो?"
