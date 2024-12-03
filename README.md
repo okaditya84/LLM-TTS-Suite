@@ -33,7 +33,7 @@ datasets:
 
 # Indic Parler-TTS
 
-<a target="_blank" href="https://huggingface.co/spaces/PHBJT/multi_parler_tts">
+<a target="_blank" href="https://huggingface.co/spaces/ai4bharat/indic-parler-tts">
   <img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg" alt="Open in HuggingFace"/>
 </a>
 
