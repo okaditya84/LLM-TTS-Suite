@@ -358,6 +358,17 @@ Here’s the table combining the duration (hours) and the number of utterances f
 If you found this repository useful, please consider citing this work and also the original Stability AI paper:
 
 ```
+@misc{lacombe-etal-2024-indic-parler-tts,
+  author = {Yoach Lacombe, Ashwin Sankar, Sherry Thomas, Sanchit Gandhi, Mitesh Khapra,
+  title = {Indic Parler-TTS},
+  year = {2024},
+  publisher = {Hugging Face},
+  journal = {Hugging Face repository},
+  howpublished = {\url{https://huggingface.co/ai4bharat/indic-parler-tts}}
+}
+```
+
+```
 @misc{lacombe-etal-2024-parler-tts,
   author = {Yoach Lacombe and Vaibhav Srivastav and Sanchit Gandhi},
   title = {Parler-TTS},
