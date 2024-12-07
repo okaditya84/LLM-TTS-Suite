@@ -359,7 +359,7 @@ If you found this repository useful, please consider citing this work and also t
 
 ```
 @misc{lacombe-etal-2024-indic-parler-tts,
-  author = {Yoach Lacombe, Ashwin Sankar, Sherry Thomas, Sanchit Gandhi, Mitesh Khapra,
+  author = {Yoach Lacombe, Ashwin Sankar, Sherry Thomas, Praveen Srinivasa Varadhan, Sanchit Gandhi, Mitesh Khapra,
   title = {Indic Parler-TTS},
   year = {2024},
   publisher = {Hugging Face},
