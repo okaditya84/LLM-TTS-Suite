@@ -18,8 +18,6 @@ Thumbs.db
 .vscode/
 .idea/
 # Output audio and large artifacts
-output audio/
-output.wav
 output_*.wav
 # FAISS indexes and model checkpoints
 *.index
@@ -40,3 +38,4 @@ node_modules/
 
 # git
 .git
+*.mp4
