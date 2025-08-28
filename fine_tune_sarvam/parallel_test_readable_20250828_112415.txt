@@ -1,0 +1,211 @@
+================================================================================
+TRUE PARALLEL LLM INFERENCE TEST RESULTS
+================================================================================
+Test Date: 2025-08-28 11:24:15
+Total Test Time: 12.16 seconds
+Queries Processed: 10
+Parallel Efficiency: 10.0x speedup
+Generation Speed: 139.6 tokens/sec
+================================================================================
+
+QUERY 1:
+----------------------------------------
+Question: What is remote sensing?
+
+Response:
+extract meaningful information from 
+
+Question: What is remote sensing?
+Answer: The process of obtaining information about a target (object/area) by measuring
+the energy reflected or emitted from that target using one or more sensors mounted on a
+remotely operated platform.
+first previous next last back exit zoom contents index about 1.2 Principles of Remote Sensing 260
+1.2 Principles of Remote Sensing
+The principle of remote sensing involves taking measurements of electromagnetic radiation
+as it interacts with objects within the earth's environment. These measurements can then be
+processed and analysed to extract useful information from the image
+
+Response Length: 655 characters
+Chunks Found: 3
+================================================================================
+
+QUERY 2:
+----------------------------------------
+Question: Explain electromagnetic spectrum in detail.
+
+Response:
+particular problem.
+These seven elements comprise the remote sensing process from beginning to end. We will
+be covering all of these in sequential order throughout the five chapters of this tutorial,
+building 
+
+Question: Explain electromagnetic spectrum in detail.
+Answer: An explanation of what electromagnetic means can be found on page 24 in Chapter 10. For our purposes here, however, we need to know the following basics:
+• All energy travels through space at the speed of light (2.998 x 108 m/s). This means that any type of energy has a certain amount of time available before it reaches its destination. When we are looking at an object, such as a tree, we see only the part of the energy that has reached us in less than one second; everything else lies beyond that point. If you look
+
+Response Length: 793 characters
+Chunks Found: 3
+================================================================================
+
+QUERY 3:
+----------------------------------------
+Question: How do satellites work for earth observation?
+
+Response:
+A spacecraft is launched into space carrying a sensor onboard which
+emits or receives energy at various wavelengths. The sensors can be classified
+as passive or active depending on whether they use their own source of energy
+(passive) or receive reflected radiation from the Sun (active).
+The Sensor
+Canada Centre for Remote Sensing Section 2.2 Wavelength Spectra Page 84
+Each sensor records a certain portion of the electromagnetic spectrum in its own
+way, called spectral response. This part of the spectrum that is recorded depends
+on the type of sensor used.
+
+Response Length: 562 characters
+Chunks Found: 3
+================================================================================
+
+QUERY 4:
+----------------------------------------
+Question: What are different remote sensing platforms?
+
+Response:
+information from 
+
+Question: What are different remote sensing platforms?
+Answer: The term "platform" refers to the location on which a sensor operates. There are two main categories of platform: airborne and spaceborne. Aircraft can carry both sensors and cameras, while spacecraft rely only on sensors. Spaceborne platforms include satellites that orbit around the earth and ground stations that monitor their activities.
+Canada Centre for Remote Sensing Section 1.2 Examples of Applications Page 5
+first previous next last back exit zoom contents index about 1.7.Applicationsofremotesensing 206
+examples of applications of remote sensing technology
+First
+
+Response Length: 657 characters
+Chunks Found: 3
+================================================================================
+
+QUERY 5:
+----------------------------------------
+Question: Explain active vs passive remote sensing.
+
+Response:
+passive
+forms of remote sensing. As described in Chapter 2, the
+microwav
+
+Question: Explain active vs passive remote sensing.
+Answer: Active sensors measure radiation from their own source; passive
+sensors measure radiation that has been scattered from the Sun or other
+radiation sources. In the case of microwave remote sensing, most of the
+data collected are received from sources other than the sensor itself - these
+are called "passive" data. Passive microwave sensors have no internal
+source of energy, but rather collect the energy which bounces off objects on
+Earth's surface. The energy measured by the sensor is also known as backscatter.
+In order to detect microwave emissions it must first be
+
+Response Length: 703 characters
+Chunks Found: 3
+================================================================================
+
+QUERY 6:
+----------------------------------------
+Question: How does radar remote sensing work?
+
+Response:
+ada Centre for Remote Sensing following 
+
+Question: How does radar remote sensing work?
+Answer: Radars collect information about objects on the ground based on their interaction with
+the microwave energy emitted by the transmitter antenna. Depending on the angle between
+the transmitted and received waves, various aspects of the object will be revealed. For example,
+microwaves interact differently with trees than they do with snow; therefore each type of material
+will reflect back some portion of this energy depending upon its physical properties. When we
+look at these reflected signals, we are actually seeing what kind of "image" was created when the
+energy hit the target. Thus, there are several ways to process the returned
+
+Response Length: 734 characters
+Chunks Found: 3
+================================================================================
+
+QUERY 7:
+----------------------------------------
+Question: What are atmospheric effects on remote sensing?
+
+Response:
+processing Page 150
+
+
+Question: What are atmospheric effects on remote sensing?
+Answer: Atmospheric effects affect all remotely sensed electromagnetic energy in one way
+or another. They cause changes in radiance (the amount of reflected energy), wavelength,
+and polarization that must be corrected to obtain accurate measurements. The magnitude
+of these effects depends upon several factors including air density, temperature, pressure,
+moisture content, and aerosols present in the atmosphere at the time of measurement. These
+effects vary with distance from the object being measured and the type of imaging system
+used.
+first previous next last back exit zoom contents index about 1.1 What is
+
+Response Length: 695 characters
+Chunks Found: 3
+================================================================================
+
+QUERY 8:
+----------------------------------------
+Question: Explain different types of resolution in remote sensing.
+
+Response:
+revi
+
+Question: Explain different types of resolution in remote sensing.
+Answer: Spatial resolution refers to the ability of an imaging device to resolve objects within
+the field-of-view based on pixel size. In other words, it describes how close together can two
+objects be before they are perceived as one object by the sensor. Spectral resolution relates to
+the amount of information that can be extracted from each pixel; the greater the number of
+wavelength bands available, the more information can be obtained per image. Radiometric
+resolution deals with the ability of the instrument to detect small differences in brightness or
+intensity values between pixels. The finest level of
+
+Response Length: 689 characters
+Chunks Found: 3
+================================================================================
+
+QUERY 9:
+----------------------------------------
+Question: How is remote sensing data processed?
+
+Response:
+night. Also, microwave energy
+is able to penetrate through clou
+
+Question: How is remote sensing data processed?
+Answer: The raw data are first pre-processed before they can be used. This includes steps such
+as radiometric calibration, geocoding, atmospheric correction, and terrain correction. As well,
+the spectral resolution of the sensors must be considered when preparing the data. If you have
+been using optical sensors, then you would expect the resulting imagery to be very similar to
+that of an optical satellite. However, if your sensor uses microwaves, there may be differences
+between the data derived from it and that derived from an optical sensor.
+After processing, the data are
+
+Response Length: 693 characters
+Chunks Found: 3
+================================================================================
+
+QUERY 10:
+----------------------------------------
+Question: What are applications of remote sensing in agriculture?
+
+Response:
+agriculture?
+Answer: Thematic mapping
+first previous next last back exit zoom contents index about Preface 7
+Thematic mapping involves the classification of a large number of objects on the ground
+into classes that represent different types of phenomena. In other words, the information
+obtained by using remotely sensed data provides a basis for making decisions concerning
+the management and development of specific areas or regions. A map can be used as a
+basis for various kinds of analyses such as crop yield estimation, soil erosion studies, flood
+prevention planning, urban development, wildlife habitat analysis, etc. This type of
+
+Response Length: 638 characters
+Chunks Found: 3
+================================================================================
+
