@@ -1,0 +1,152 @@
+{
+  "test_info": {
+    "timestamp": "2025-08-30T12:39:58.597291",
+    "test_type": "fast_batched_inference",
+    "model_type": "fine_tuned_openhathi_lora",
+    "optimization": "batched_inference_fp16"
+  },
+  "results": [
+    {
+      "query_index": 0,
+      "query": "What is electromagnetic spectrum?",
+      "response": "electromagnetic spectrum?\nWhat is an imaging spectrometer?\nHow do we know what the spectral resolution of a sensor is?\nWhy are multispectral images useful?\nCan you think of any other ways in which remote sensing data could be presented as colour\nimages, aside from using photography or electronic scanning and recording?\n4.3 Answers\n(cid:1)(cid:2)(cid:3)(cid:4)(cid:5)\n(cid:",
+      "input_tokens": 8,
+      "output_tokens": 105,
+      "total_tokens": 113,
+      "inference_time": 9.513447523117065,
+      "tokens_per_second": 11.037008376285963,
+      "batch_time": 9.513447523117065,
+      "timestamp": "2025-08-30T12:39:49.326964"
+    },
+    {
+      "query_index": 1,
+      "query": "Explain satellite orbits briefly.",
+      "response": "satellite orbits briefly.in terms of their geographic and\neccentricity characteristics.\n10.4 Answer\nSatellites orbit the Earth in either near-polar (North/South) or\nnear-equatorial (East/West) orbits. Near-polar orbits are used for\nglobal monitoring, such as meteorology, oceanography, forestry,\nand military applications. Satellites at these latitudes view almost\nthe entire globe",
+      "input_tokens": 8,
+      "output_tokens": 105,
+      "total_tokens": 113,
+      "inference_time": 9.513447523117065,
+      "tokens_per_second": 11.037008376285963,
+      "batch_time": 9.513447523117065,
+      "timestamp": "2025-08-30T12:39:49.327295"
+    },
+    {
+      "query_index": 2,
+      "query": "What is SAR imaging?",
+      "response": "SAR imaging?\nWhat is a radar image? Why would we use remote sensing of the Earth's surface with radar? How do\nwe know that the information in an image can be useful to someone, even if it doesn't look like any\nconventional photo or video? These are some of the questions that will be addressed as you read this\nchapter. We will start by examining what makes a remote sensing device unique from other types of\nsensors and then discuss",
+      "input_tokens": 8,
+      "output_tokens": 105,
+      "total_tokens": 113,
+      "inference_time": 9.513447523117065,
+      "tokens_per_second": 11.037008376285963,
+      "batch_time": 9.513447523117065,
+      "timestamp": "2025-08-30T12:39:49.327509"
+    },
+    {
+      "query_index": 3,
+      "query": "How does atmospheric interference affect remote sensing?",
+      "response": "While the attenuation of energy due to transmission through the atmosphere is a problem for most\nimaging radars, scattering causes problems when it occurs in the visible and infrared regions. Scattered\nradiation hampers visual and thermal imaging efforts because of reduced signal strength and increased\nspeckle (grainy appearance) in images. However, scattering can be used for some diagnostics purposes.\nScatterometry measurements of sea surface wind speed",
+      "input_tokens": 13,
+      "output_tokens": 100,
+      "total_tokens": 113,
+      "inference_time": 9.513447523117065,
+      "tokens_per_second": 10.511436548843774,
+      "batch_time": 9.513447523117065,
+      "timestamp": "2025-08-30T12:39:49.327716"
+    },
+    {
+      "query_index": 4,
+      "query": "Difference between active and passive remote sensing?",
+      "response": "?\nFor most remote sensing systems, the energy is emitted by a sensor or source (e.g., an\nemitted microwave signal from an altimeter) and then detected at some distance down the\npath. In this case, the remote sensing process is called \"active\". Passive remote sensing is\nalso sometimes referred to as \"energy conversion\" remote sensing because it involves\nconverting some other form of radiation into electromagnetic energy for remote sens",
+      "input_tokens": 12,
+      "output_tokens": 101,
+      "total_tokens": 113,
+      "inference_time": 9.513447523117065,
+      "tokens_per_second": 10.616550914332212,
+      "batch_time": 9.513447523117065,
+      "timestamp": "2025-08-30T12:39:49.327897"
+    },
+    {
+      "query_index": 5,
+      "query": "Applications of hyperspectral imaging?",
+      "response": "We have seen the applications for spectral typing, vegetation discrimination and\ndetection of minerals. Hyperspectral imagery can also be used to measure sea surface\ntemperature (Figure 13.4), quantify chlorophyll concentration in algae-infested waterbodies\n(Figure 13.5), and map ocean colour patterns. The multispectral nature of this data allows\nfor more detailed analysis than",
+      "input_tokens": 11,
+      "output_tokens": 100,
+      "total_tokens": 111,
+      "inference_time": 9.267587423324585,
+      "tokens_per_second": 10.790294758733094,
+      "batch_time": 9.267587423324585,
+      "timestamp": "2025-08-30T12:39:58.595908"
+    },
+    {
+      "query_index": 6,
+      "query": "What is geometric correction?",
+      "response": "What is geometric correction? Geometric corrections are necessary to\ncorrect for the effects of relief displacement, due to terrain relief and\nphoto-mechanical distortions. Relief displacement results from the curvature of\nthe Earth (relief displacement) and variations in altitude between the camera and\ntarget during acquisition. Photo-mechanical distortion refers to the undulations\nthat occur as a result of the movement of the film through the camera and the\nsliding",
+      "input_tokens": 6,
+      "output_tokens": 105,
+      "total_tokens": 111,
+      "inference_time": 9.267587423324585,
+      "tokens_per_second": 11.329809496669748,
+      "batch_time": 9.267587423324585,
+      "timestamp": "2025-08-30T12:39:58.596157"
+    },
+    {
+      "query_index": 7,
+      "query": "How do microwave sensors work?",
+      "response": "?\nThe remote sensing of microwaves is based on the detection and recording of microwave\nenergy emitted from, or reflected by, a target. In most applications, the radar system is used\nto provide a \"side-looking\" view of the surface which may be several kilometres in range\ndimension. The energy is transmitted towards the Earth's surface (or into the atmosphere)\nby an antenna mounted atop the sensor platform. When the energy reaches",
+      "input_tokens": 10,
+      "output_tokens": 101,
+      "total_tokens": 111,
+      "inference_time": 9.267587423324585,
+      "tokens_per_second": 10.898197706320424,
+      "batch_time": 9.267587423324585,
+      "timestamp": "2025-08-30T12:39:58.596335"
+    },
+    {
+      "query_index": 8,
+      "query": "Define spatial and spectral resolution.",
+      "response": "and spectral resolution.and relate them to the concept of\nbandsofinterpretation(Chapter4). Explain what you understand by\nthe terms: spectral resolution, bandwidth, and slant range distance.\n3.3 Answers\n1) Spatial resolution is related to the size of the groundpixelsthatcanbea-\nssessed. In a radar image with small IFOVs (say 0.25 m), there will be very\nfine",
+      "input_tokens": 7,
+      "output_tokens": 104,
+      "total_tokens": 111,
+      "inference_time": 9.267587423324585,
+      "tokens_per_second": 11.221906549082417,
+      "batch_time": 9.267587423324585,
+      "timestamp": "2025-08-30T12:39:58.596504"
+    },
+    {
+      "query_index": 9,
+      "query": "Advantages of LiDAR technology?",
+      "response": "technology?\nLIDAR is a well established sensor for remote sensing and mapping, which has been used\nfor over 50 years. The all-electrical system is reliable, and the imaging geometry allows for\nquick turnaround from acquisition to results. The ability to collect three-dimensional data\nis an advantage when working with complex terrain or irregular shapes, such as buildings,\ntrees, bridges, etc. Lidar is also able to penetrate cloud cover (",
+      "input_tokens": 9,
+      "output_tokens": 102,
+      "total_tokens": 111,
+      "inference_time": 9.267587423324585,
+      "tokens_per_second": 11.006100653907755,
+      "batch_time": 9.267587423324585,
+      "timestamp": "2025-08-30T12:39:58.596668"
+    }
+  ],
+  "metrics": {
+    "summary": {
+      "total_queries": 10,
+      "total_execution_time": 20.135986804962158,
+      "average_query_time": 9.390517473220825,
+      "throughput_qps": 0.49662328928104366,
+      "total_tokens_generated": 1028
+    },
+    "performance": {
+      "fastest_query_time": 9.267587423324585,
+      "slowest_query_time": 9.513447523117065,
+      "avg_tokens_per_second": 10.948532175674732,
+      "max_tokens_per_second": 11.329809496669748,
+      "avg_response_length": 102.8
+    },
+    "model_info": {
+      "base_model": "/nlsasfs/home/ledgerptf/ashsa/models/openhathi/OpenHathi-7B-Hi-v0.1-Base/",
+      "adapter_path": "/nlsasfs/home/ledgerptf/ashsa/models/openhathi/fine_tuned_openhathi/",
+      "device": "cuda",
+      "gpu_memory_gb": 4.529906176
+    }
+  }
+}
