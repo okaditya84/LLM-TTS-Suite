@@ -24,7 +24,7 @@ from pydantic import BaseModel
 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
-from peft import PeftModel
+import fine_tune_openhathi.rag_utils as rag_utils
 
 
 class QueryRequest(BaseModel):
@@ -39,6 +39,9 @@ def start_server_process(model_dir: str, adapter_dir: str, host: str, port: int,
     def _run():
         app = FastAPI()
 
+        # load RAG components once per server process
+        app.state.rag = rag_utils.load_faiss_components('.')
+
         request_queue: asyncio.Queue = asyncio.Queue()
 
         @app.on_event("startup")
@@ -50,22 +53,57 @@ def start_server_process(model_dir: str, adapter_dir: str, host: str, port: int,
                 app.state.tokenizer.pad_token = app.state.tokenizer.eos_token
 
             try:
-                bnb = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_use_double_quant=False, bnb_4bit_quant_type='nf4', bnb_4bit_compute_dtype=torch.float16)
-                base = AutoModelForCausalLM.from_pretrained(model_dir, quantization_config=bnb, device_map='auto', trust_remote_code=True, low_cpu_mem_usage=True)
+                bnb = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_use_double_quant=False,
+                    bnb_4bit_quant_type='nf4',
+                    bnb_4bit_compute_dtype=torch.float16,
+                )
+                base = AutoModelForCausalLM.from_pretrained(
+                    model_dir,
+                    quantization_config=bnb,
+                    device_map='auto',
+                    trust_remote_code=True,
+                    low_cpu_mem_usage=True,
+                )
                 print('Server: loaded base model with 4-bit quantization')
             except Exception as e:
                 print('Server: quantized load failed, loading fp16:', e)
-                base = AutoModelForCausalLM.from_pretrained(model_dir, device_map='auto', torch_dtype=torch.float16, trust_remote_code=True, low_cpu_mem_usage=True)
+                base = AutoModelForCausalLM.from_pretrained(
+                    model_dir,
+                    device_map='auto',
+                    torch_dtype=torch.float16,
+                    trust_remote_code=True,
+                    low_cpu_mem_usage=True,
+                )
 
-            app.state.model = PeftModel.from_pretrained(base, adapter_dir)
+            # Try applying LoRA adapter if peft is available
+            try:
+                from peft import PeftModel as _PeftModel
+            except Exception:
+                _PeftModel = None
+
+            if _PeftModel is not None:
+                try:
+                    app.state.model = _PeftModel.from_pretrained(base, adapter_dir)
+                    print('Server: adapter applied')
+                except Exception as e:
+                    print('Server: failed to apply adapter, using base model:', e)
+                    app.state.model = base
+            else:
+                print('Server: peft not installed; using base model without adapter')
+                app.state.model = base
+
             app.state.model.eval()
-            print('Server: model + adapter loaded')
+            print('Server: model ready')
 
             # container for batch metrics collected during runtime
             app.state.batch_metrics = []
             app.state.batch_counter = 0
 
-            app.state.batch_task = asyncio.create_task(batch_worker(app, request_queue, batch_wait_ms / 1000.0, max_batch))
+            app.state.batch_task = asyncio.create_task(
+                batch_worker(app, request_queue, batch_wait_ms / 1000.0, max_batch)
+            )
 
         @app.on_event("shutdown")
         async def shutdown():
@@ -116,8 +154,20 @@ async def batch_worker(app: FastAPI, queue: asyncio.Queue, wait_s: float, max_ba
 
         ids, texts, max_toks, futures = zip(*[(it[0], it[1], it[2], it[3]) for it in batch])
 
+        # For each text, build retrieval-augmented prompt
+        prompts = []
+        for t in texts:
+            q_emb = rag_utils.embed_query(app.state.rag, t, model_name=app.state.rag.get('embed_info', {}).get('model', 'all-mpnet-base-v2'))
+            retrieved = []
+            if q_emb is not None:
+                retrieved = rag_utils.search_rag(app.state.rag, query=t, query_emb=q_emb, k=4)
+            else:
+                retrieved = rag_utils.search_rag(app.state.rag, query=t, query_emb=None, k=4)
+            prompt = rag_utils.assemble_prompt(retrieved, t, max_context_chars=1500)
+            prompts.append(prompt)
+
         # tokenize and move to device
-        inputs = tokenizer(list(texts), return_tensors='pt', padding=True, truncation=True, max_length=512)
+        inputs = tokenizer(prompts, return_tensors='pt', padding=True, truncation=True, max_length=1024)
         input_ids = inputs.input_ids.to(device)
         attention_mask = inputs.attention_mask.to(device)
         input_lengths = attention_mask.sum(dim=1).cpu().tolist()
@@ -131,8 +181,16 @@ async def batch_worker(app: FastAPI, queue: asyncio.Queue, wait_s: float, max_ba
         if torch.cuda.is_available():
             torch.cuda.synchronize()
 
+        # Use deterministic generation to avoid continuation-of-source behaviour
         with torch.no_grad():
-            generated = model.generate(input_ids, attention_mask=attention_mask, max_new_tokens=max(max_toks), do_sample=False)
+            generated = model.generate(
+                input_ids,
+                attention_mask=attention_mask,
+                max_new_tokens=max(max_toks),
+                do_sample=False,
+                temperature=0.0,
+                num_beams=2,
+            )
 
         if torch.cuda.is_available():
             torch.cuda.synchronize()
@@ -158,7 +216,16 @@ async def batch_worker(app: FastAPI, queue: asyncio.Queue, wait_s: float, max_ba
             input_len = input_lengths[i]
             out = generated[i]
             new_tokens = out[input_len:]
-            text = tokenizer.decode(new_tokens, skip_special_tokens=True)
+            text = tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
+            # cleanup leading markers
+            if text.startswith('Q:') or text.startswith('A:'):
+                # remove the marker and following punctuation
+                text = text.split(':', 1)[-1].strip()
+            # If result is garbled, retry single deterministic generation with RAG prompt
+            if rag_utils.is_bad_response(text):
+                retry = rag_utils.single_generate(model, tokenizer, prompts[i], device, max_new_tokens=max_toks[i], num_beams=6)
+                if not rag_utils.is_bad_response(retry):
+                    text = retry
             fut.set_result({
                 'id': ids[i],
                 'text': text,
