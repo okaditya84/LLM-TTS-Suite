@@ -113,6 +113,18 @@ def load_local_tokenizer(base_dir: str):
             except Exception as e:
                 print("PreTrainedTokenizerFast load failed:", e)
 
+        # 1b) Try loading a fast tokenizer directly from tokenizer.json using transformers
+        tok_file = base / "tokenizer.json"
+        if HAVE_HF and tok_file.exists():
+            try:
+                from transformers import PreTrainedTokenizerFast
+                print("Trying PreTrainedTokenizerFast with tokenizer.json...")
+                tok = PreTrainedTokenizerFast(tokenizer_file=str(tok_file))
+                print("Loaded tokenizer via PreTrainedTokenizerFast.")
+                return ("hf", tok)
+            except Exception as e:
+                print("PreTrainedTokenizerFast load failed:", e)
+
     # 2) Try tokenizers' tokenizer.json
     tok_json = base / "tokenizer.json"
     if HAVE_TOKENIZERS and tok_json.exists():
