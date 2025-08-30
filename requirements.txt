@@ -1,0 +1,47 @@
+# Core ML stack (install torch matching your CUDA separately — see https://pytorch.org/get-started/locally/)
+torch                  # install with the correct CUDA wheel, e.g. pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# Transformers + quantization + PEFT/QLoRA
+transformers
+bitsandbytes
+peft
+accelerate
+
+# Data and training utilities
+datasets
+tokenizers
+sentencepiece
+safetensors
+
+# Embeddings / retrieval / indexing
+sentence-transformers
+scikit-learn
+# FAISS: choose one based on environment
+faiss-cpu            # CPU-only FAISS
+# faiss-gpu           # Uncomment if you have GPU + compatible CUDA and want GPU FAISS
+
+# Sparse retrieval / BM25 reranking
+rank_bm25
+
+# PDF parsing, text utils, serialization
+pdfplumber
+regex
+tqdm
+ujson
+pyyaml
+python-dotenv
+
+# Optional telemetry / experiment tracking
+wandb
+
+# Recommended: system/compatibility helpers
+psutil
+
+# Notes:
+# - Install torch first with the wheel that matches your CUDA (or CPU-only). Example for CUDA 11.8:
+#     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# - If you use bitsandbytes, ensure the installed bitsandbytes binary matches your CUDA / torch build.
+# - Adjust faiss (cpu vs gpu) to your environment. On servers with GPUs prefer faiss-gpu.
+# - If you plan to use optional rerankers (cross-encoder), add sentence-transformers model weights
+uvicorn
+fastapi
