@@ -1,0 +1,510 @@
+{
+  "session_start": "2025-09-04T00:31:33.725091",
+  "total_queries": 9,
+  "results": [
+    {
+      "query": "what are the top principles of remote sensing ?",
+      "answer": "",
+      "context_docs": [
+        {
+          "id": "836630574820f5f45a449e99723f537b",
+          "text": "410\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\nPreface\nPrinciples of Remote Sensing is the basic textbook on remote sensing for all stu-\ndents enrolled in the 2000–2001 educational programmes at ITC. As well as\nbeing a basic textbook for the institute’s regular MSc and PM courses, Principles\nof Remote Sensing will be used in various short courses and possibly also by ITC’s\nsister institutes. The ﬁrst edition is an extensively revised version of an earlier",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 50,
+          "char_count": 476,
+          "word_count": 79,
+          "similarity_score": 0.7021003365516663
+        },
+        {
+          "id": "b891687d5f7b63574b7a2fa5570d1d0a",
+          "text": "PRINCIPLES OF\nREMOTE SENSING\nITC EDUCATIONAL TEXTBOOK SERIES 2\nc⃝2001 ITC\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\nPrinciples of Remote Sensing\nAn introductory textbook\nEditors\nLucas L. F. Janssen\nGerrit C. Huurneman\nAuthors\nWim H. Bakker\nLucas L. F. Janssen\nColin V. Reeves\nBen G. H. Gorte\nChristine Pohl\nMichael J. C. Weir\nJohn A. Horn\nAnupma Prakash\nTsehaie Woldai\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\nCover illustration of the printed book:",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 0,
+          "char_count": 486,
+          "word_count": 80,
+          "similarity_score": 0.6978022456169128
+        },
+        {
+          "id": "b5d6bbc429c07fa841dbbf1dada6e6fa",
+          "text": "spectral scanner and radar) are dealt with more or less the same detail. Finally,\ncompared to other introductory textbooks which often focus on the technique,\nPrinciples of Remote Sensing also introduces processes. In this sense, it provides\na frame to refer to when more detailed subjects are dealt with later in the pro-\ngramme.\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\nPreface\n20\nHow to use the material\nPrinciples of Remote Sensing has been produced both as a hard-copy textbook and",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 54,
+          "char_count": 505,
+          "word_count": 84,
+          "similarity_score": 0.695623517036438
+        },
+        {
+          "id": "6fbd84534dbdb58f2fef9e0d7488767a",
+          "text": "book while there are already many books on the subject available on the mar-\nket. Principles of Remote Sensing is different in various aspects. First of all, it\nhas been developed for the speciﬁc ITC student population, thereby taking into\naccount their entry level and knowledge of English language. The textbook re-\nlates to the typical ITC application disciplines and among others provides an\nintroduction into techniques which acquire sub-surface characteristics. As the\nﬁrst\nprevious\nnext\nlast\nback\nexit",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 52,
+          "char_count": 508,
+          "word_count": 79,
+          "similarity_score": 0.6834814548492432
+        },
+        {
+          "id": "6806c4b6617bd234d0d7c4d73f06556d",
+          "text": "Why remote sensing? \nA synoptic view of regional scale is a much \ndifferent perspective than point ground \nobservations when trying to map structural \nelements. Remote sensing offers this perspective \nand allows a geologist to examine other reference \nancillary data simultaneously and synergistically, \nsuch as geo-magnetic information. \nCertain remote sensing devices offer unique \ninformation regarding structures, such as in the \nrelief expression offered by radar sensors.",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 710,
+          "char_count": 477,
+          "word_count": 65,
+          "similarity_score": 0.6795127391815186
+        }
+      ],
+      "retrieval_time": 0.3751344680786133,
+      "generation_time": 37.66177225112915,
+      "total_time": 38.03691649436951,
+      "confidence": 0.6917040586471558,
+      "timestamp": "2025-09-04T00:31:33.725091"
+    },
+    {
+      "query": "what are the principles of remote sensing and its applications?",
+      "answer": "",
+      "context_docs": [
+        {
+          "id": "b5d6bbc429c07fa841dbbf1dada6e6fa",
+          "text": "spectral scanner and radar) are dealt with more or less the same detail. Finally,\ncompared to other introductory textbooks which often focus on the technique,\nPrinciples of Remote Sensing also introduces processes. In this sense, it provides\na frame to refer to when more detailed subjects are dealt with later in the pro-\ngramme.\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\nPreface\n20\nHow to use the material\nPrinciples of Remote Sensing has been produced both as a hard-copy textbook and",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 54,
+          "char_count": 505,
+          "word_count": 84,
+          "similarity_score": 0.7182795405387878
+        },
+        {
+          "id": "b2481e7d4b8ea2ef68bc79d37a7a0926",
+          "text": "particularly vegetation structure, which proves valuable when attempting to differentiate \nbetween crop type. \nOne the key applications within this project is the operational use of high resolution optical \nand radar data to confirm conditions claimed by a farmer when he requests aid or \ncompensation. The use of remote sensing identifies potential areas of non-compliance or \nsuspicious circumstances, which can then be investigated by other, more direct methods.",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 629,
+          "char_count": 465,
+          "word_count": 67,
+          "similarity_score": 0.7177771329879761
+        },
+        {
+          "id": "f2643598d1f5d817e4e9896ec102f063",
+          "text": "section with anecdotes and examples of how remote sensing is used throughout the world.  \nCovering the material in the tutorial prepares the reader for visiting and appreciating the rest \nof the CCRS Web site, wherein technical and research articles on most remote sensing topics \ncan be found. An extensive glossary of remote sensing terminology and other educational \nmodules are also available and may be of interest to the student or teacher.",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 940,
+          "char_count": 446,
+          "word_count": 71,
+          "similarity_score": 0.7163864970207214
+        },
+        {
+          "id": "6806c4b6617bd234d0d7c4d73f06556d",
+          "text": "Why remote sensing? \nA synoptic view of regional scale is a much \ndifferent perspective than point ground \nobservations when trying to map structural \nelements. Remote sensing offers this perspective \nand allows a geologist to examine other reference \nancillary data simultaneously and synergistically, \nsuch as geo-magnetic information. \nCertain remote sensing devices offer unique \ninformation regarding structures, such as in the \nrelief expression offered by radar sensors.",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 710,
+          "char_count": 477,
+          "word_count": 65,
+          "similarity_score": 0.7155377864837646
+        },
+        {
+          "id": "26a277518c36f3885825e562e4805f64",
+          "text": "when taking a remote sensing approach are discussed.\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\n1.1. Spatial data acquisition\n30\nRemote Sensing Deﬁnitions\nThree deﬁnitions of remote sensing are given below:\n• Remote sensing is the science of acquiring, processing and interpreting im-\nages that record the interaction between electromagnetic energy and mat-\nter [24].\n• Remote sensing is the science and art of obtaining information about an",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 74,
+          "char_count": 458,
+          "word_count": 71,
+          "similarity_score": 0.7080804109573364
+        }
+      ],
+      "retrieval_time": 0.011393547058105469,
+      "generation_time": 0.18701863288879395,
+      "total_time": 0.19842100143432617,
+      "confidence": 0.7152122735977173,
+      "timestamp": "2025-09-04T00:31:50.310295"
+    },
+    {
+      "query": "what is the electromagnetic spectrum and its applications in depth",
+      "answer": "",
+      "context_docs": [
+        {
+          "id": "321aa770b9e8d41d5a8525db2315d0d9",
+          "text": "electromagnetic spectrum (Figure 2.5). It extends from gamma rays to radio\nwaves.\nWavelength (mm)\n10-6\nCosmic rays\nY rays\nX rays\nUltraviolet (UV)\nVisible\nNear-IR\nMid-IR\nThermal IR\nMicrowave\nTelevision and\nradio\nblue\ngreen\nred\nVisible\n0.4\n0.5\n0.6\n0.7\nNear-infrared\nUV\n10-5\n10-4\n10-3\n10-2 10-1\n1\n10\n102\n103\n104\n105\n106\n107\n108\n109\n(mm)\nFigure 2.5:\nThe electro-\nmagnetic spectrum, after\n[16]\nRemote sensing operates in several regions of the electromagnetic spectrum.",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 119,
+          "char_count": 464,
+          "word_count": 76,
+          "similarity_score": 0.6918675899505615
+        },
+        {
+          "id": "c6fd680d71e11b192b80cfddca78db2c",
+          "text": "The optical part of the EM spectrum refers to that part of the EM spectrum in which\noptical laws can be applied. These relate to phenomena, such as reﬂectance and\nrefraction, that can be used to focus the radiation. The optical range extends\nfrom X-rays (0.02 µm) through the visible part of the EM spectrum up to and\nincluding far-infrared (1000 µm). The ultraviolet (UV) portion of the spectrum\nhas the shortest wavelengths that are of practical use for remote sensing. This",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 120,
+          "char_count": 476,
+          "word_count": 82,
+          "similarity_score": 0.6699175834655762
+        },
+        {
+          "id": "f4dde51dc02a880dd309b282768e9399",
+          "text": "characteristics of electromagnetic radiation in terms of their wavelength and frequency is \ncrucial to understanding the information to be extracted from remote sensing data. Next we \nwill be examining the way in which we categorize electromagnetic radiation for just that \npurpose. \nPage 8\nSection 1.2 Electromagnetic Radiation\nCanada Centre for Remote Sensing\n1.3 The Electromagnetic Spectrum \nThe electromagnetic spectrum ranges from the shorter wavelengths (including gamma and",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 16,
+          "char_count": 481,
+          "word_count": 67,
+          "similarity_score": 0.6322104930877686
+        },
+        {
+          "id": "0e749cdd2efcb8957aff88eaab175506",
+          "text": "radiation is beyond the violet portion of the visible wavelengths. Some of the\nEarth’s surface materials, primary rocks and minerals, emit or ﬂuoresce visible\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\n2.2. Electromagnetic energy\n59\nlight when illuminated with UV radiation. The microwave range covers wave-\nlengths from 1 mm to 1 m.\nThe visible region of the spectrum (Figure 2.5) is commonly called ‘light’.\nIt occupies a relatively small portion in the EM spectrum. It is important to",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 121,
+          "char_count": 504,
+          "word_count": 82,
+          "similarity_score": 0.6148013472557068
+        },
+        {
+          "id": "3ff04ef587bfe1134ed8828b93f88c40",
+          "text": "according to the basics of wave theory. \nElectromagnetic radiation consists of an \nelectrical field(E) which varies in magnitude in \na direction perpendicular to the direction in \nwhich the radiation is traveling, and a \nmagnetic field (M) oriented at right angles to \nthe electrical field. Both these fields travel at \nthe speed of light (c). \nTwo characteristics of electromagnetic \nradiation are particularly important for understanding remote sensing. These are the \nwavelength and frequency. \n \nPage 7",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 13,
+          "char_count": 506,
+          "word_count": 74,
+          "similarity_score": 0.6123682856559753
+        }
+      ],
+      "retrieval_time": 0.008675336837768555,
+      "generation_time": 0.19359278678894043,
+      "total_time": 0.20227408409118652,
+      "confidence": 0.6442330598831176,
+      "timestamp": "2025-09-04T00:32:05.610587"
+    },
+    {
+      "query": "what is the way to reduce the error you encounter while using the device to meeasure anytype of signal",
+      "answer": "",
+      "context_docs": [
+        {
+          "id": "b23d5253481892ef69c91a8e6553ee24",
+          "text": "range detected for a particular channel or band. Unfortunately, this would reduce the spectral \nresolution of the sensor. Conversely, coarser spatial resolution would allow improved \nradiometric and/or spectral resolution. Thus, these three types of resolution must be balanced \nagainst the desired capabilities and objectives of the sensor. \nPage 77\nSection 2 Did You Know?\nCanada Centre for Remote Sensing\n2.7 Did You Know? \n\"...let's take a look at the BIG PICTURE...\"",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 272,
+          "char_count": 471,
+          "word_count": 71,
+          "similarity_score": 0.3604910969734192
+        },
+        {
+          "id": "df871df7debec4a732ac8ad33c10a243",
+          "text": ". . . . . . . . .\n330\n12.1 Sample error matrix . . . . . . . . . . . . . . . . . . . . . . . . . . .\n366\n12.2 Spectral, land cover and land use classes . . . . . . . . . . . . . . .\n369\nA.1 Relevant SI units in the context of remote sensing\n. . . . . . . . .\n409\nA.2 Unit preﬁx notation . . . . . . . . . . . . . . . . . . . . . . . . . . .\n410\nA.3 Common units of wavelength . . . . . . . . . . . . . . . . . . . . .\n410\nA.4 Constants and non-SI units\n. . . . . . . . . . . . . . . . . . . . . .\n410\nﬁrst",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 49,
+          "char_count": 505,
+          "word_count": 174,
+          "similarity_score": 0.34976184368133545
+        },
+        {
+          "id": "b081891f4c5fbc903a85eab2900f4a8c",
+          "text": "vary depending on the specific sensor and platform used to acquire the data and the \nconditions during data acquisition. Also, it may be desirable to convert and/or calibrate the \ndata to known (absolute) radiation or reflectance units to facilitate comparison between data. \n \nVariations in illumination and viewing geometry between images (for optical sensors) can be \ncorrected by modeling the geometric relationship and distance between the area of the",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 517,
+          "char_count": 456,
+          "word_count": 68,
+          "similarity_score": 0.3411979079246521
+        },
+        {
+          "id": "2dfc73eabca1e158ad56b52eddb8bf16",
+          "text": "sensor has to have a small IFOV (Instantaneous Field of View). However, this reduces the \namount of energy that can be detected as the area of the ground resolution cell within the \nIFOV becomes smaller. This leads to reduced radiometric resolution - the ability to detect fine \nenergy differences. To increase the amount of energy detected (and thus, the radiometric \nresolution) without reducing spatial resolution, we would have to broaden the wavelength",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 271,
+          "char_count": 457,
+          "word_count": 72,
+          "similarity_score": 0.3316078186035156
+        },
+        {
+          "id": "88188aa79416625ace5223a98e3d7e6a",
+          "text": "show the fraction of the incident radiation that is reﬂected as a function of wave-\nlength. From such curve you can ﬁnd the degree of reﬂection for each wave-\nlength (e.g., at 400 nm, 401 nm, 402 nm, ... ). Most remote sensing sensors are\nsensitive to broader wavelength bands, for example from 400–480 nm, and the\ncurve can be used to estimate the overall reﬂectance in such bands. Reﬂectance\ncurves are made for the optical part of the electromagnetic spectrum (up to",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 147,
+          "char_count": 469,
+          "word_count": 83,
+          "similarity_score": 0.32999372482299805
+        }
+      ],
+      "retrieval_time": 0.08358335494995117,
+      "generation_time": 0.21014046669006348,
+      "total_time": 0.2937324047088623,
+      "confidence": 0.3426104784011841,
+      "timestamp": "2025-09-04T00:32:39.426458"
+    },
+    {
+      "query": "what are gamma rays ?",
+      "answer": "",
+      "context_docs": [
+        {
+          "id": "0571f93ddb503ce3c3ec358d8397412c",
+          "text": "7.2. Gamma-ray surveys\n221\n7.2\nGamma-ray surveys\nGamma radiation (electromagnetic radiation of very short wavelength) arises\nfrom the spontaneous radioactive decay of certain naturally occurring isotopes.\nThese gamma rays have sufﬁcient energy to penetrate a few hundred metres of\nair and so may be detected conveniently from a low-ﬂying aircraft. Their abil-\nity to penetrate rock and soil is modest, so only gamma rays from radioactive",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 429,
+          "char_count": 437,
+          "word_count": 66,
+          "similarity_score": 0.6141172647476196
+        },
+        {
+          "id": "ce90d6bb816e56f51a7080cbb8e9a789",
+          "text": "gamma-ray is characteristic of its elemental source. A gamma-ray spectrome-\nter can, then, not only count the number of incoming rays (counts per second)\nbut also, through analysing the energy spectrum of all incoming gamma rays\nattribute gamma-rays to their source elements and so estimate the abundances\nof Th, U and K in the source area. This requires suitable precautions and careful\ncalibration. While the abundance of the radio-elements is itself of little interest",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 432,
+          "char_count": 471,
+          "word_count": 74,
+          "similarity_score": 0.5699449777603149
+        },
+        {
+          "id": "ef45c66f331e6fcd4bc2e560e76d17f0",
+          "text": "isotopes that relate to) speciﬁc minerals. Therefore, the main application is found\nin mineral exploration. Gamma rays have a very short wavelength on the order\nof picometres (pm)). Because of large atmospheric absorption of these waves\nthis type of energy can only be measured up to a few hundred metres above the\nEarth’s surface. Example data acquired by this sensor are given in Figure 7.1.\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\n3.2. Sensors\n89\nAerial camera",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 174,
+          "char_count": 483,
+          "word_count": 80,
+          "similarity_score": 0.5489777326583862
+        },
+        {
+          "id": "31310ad052e6780f366c81abe469c87f",
+          "text": "measurement is the gamma ray wavelength range. Recording the natural emission of gamma \nrays from the earth, aircraft carrying gamma ray spectrometers are used to detect the \nattenuation or alteration by soil moisture, of the intensity of the emanation. The gamma ray \nwavelength is extremely short - about 10-12 metres in length (!) and the intensity of this \nnatural radiation at the earth's surface is very weak. As a result satellite altitudes are not",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 910,
+          "char_count": 455,
+          "word_count": 74,
+          "similarity_score": 0.5189011693000793
+        },
+        {
+          "id": "9ae429f0a320ea6af47296ffe9da99ac",
+          "text": "sources within a few tens of centimetres of the ground surface ever reach the\nair in signiﬁcant numbers. As a result, mapping gamma radiation is conﬁned\nto mapping the shallowest sub-surface, but where the soils are derived directly\nfrom the underlying bedrock and where bedrock outcrops directly, gamma rays\nare useful in mapping large areas for their geology. Where the soil has been de-\nposited from distant origins, gamma radiation from the underlying bedrock is",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 430,
+          "char_count": 466,
+          "word_count": 75,
+          "similarity_score": 0.5093055963516235
+        }
+      ],
+      "retrieval_time": 0.009521245956420898,
+      "generation_time": 0.17746615409851074,
+      "total_time": 0.1869950294494629,
+      "confidence": 0.5522493481636047,
+      "timestamp": "2025-09-04T00:32:52.589378"
+    },
+    {
+      "query": "what is the survey of the block photography?",
+      "answer": "",
+      "context_docs": [
+        {
+          "id": "b4ef36af8361eb70f016ca99b84b48cb",
+          "text": "in areas where the terrain has few features (deserts, forests etc) because in\nthese cases conventional visual navigation is particularly difﬁcult. The ma-\njor aerial camera manufacturers (as well as some independent suppliers),\nnow offer complete software packages that enable the ﬂight crew to plan,\nexecute and evaluate an entire aerial survey mission. Before the mission,\nthe boundaries of the survey area to be photographed are ﬁrst entered into",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 296,
+          "char_count": 449,
+          "word_count": 69,
+          "similarity_score": 0.49004065990448
+        },
+        {
+          "id": "c018d0d3100e96ee117dcaadc024a4c7",
+          "text": "(3 SPOT, 2 IRS, 1 IKONOS,1 EO-1); at ad hoc basis there is SPIN-2 mission.\n• ten multispectral missions with a spatial resolution between 4 and 30 m\n(2 Landsat, 3 SPOT, 2 IRS, 1 IKONOS, 1 Terra, 1 EO-1)\n• two imaging radar missions with a spatial resolution between 20 and 100 m\n(1 ERS, 1 Radarsat)\nToday, some 1400 aerial survey cameras are available and used to acquire (ver-\ntical) aerial photography. Per year, an estimated 30 aerial survey cameras are",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 222,
+          "char_count": 456,
+          "word_count": 83,
+          "similarity_score": 0.48533377051353455
+        },
+        {
+          "id": "13773c8f46bce2f3efb44c2207bf41d5",
+          "text": "135\n4.11\nComparison of different types of photography . . . . . . . . . .\n137\n4.12\nEffect of focal length\n. . . . . . . . . . . . . . . . . . . . . . . . .\n140\n4.13\nA survey area for block photography . . . . . . . . . . . . . . . .\n144\n5.1\nPrinciple of the whiskbroom scanner . . . . . . . . . . . . . . . .\n156\n5.2\nSpectral response curve of a sensor . . . . . . . . . . . . . . . . .\n158\n5.3\nPrinciple of a pushbroom scanner . . . . . . . . . . . . . . . . . .\n160\n5.4",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 34,
+          "char_count": 471,
+          "word_count": 148,
+          "similarity_score": 0.483239084482193
+        },
+        {
+          "id": "20934f26bd94e27d418076e2494e875c",
+          "text": "photo 'frames' produced, but a continuous strip of imagery. Stereo slit photography is also \npossible, using a twin-lens system aimed slightly apart from parallel and each exposing one \nhalf of the film width. \nPage 79\nSection 2 Did You Know?\nCanada Centre for Remote Sensing\n2.10 Did You Know? \n\"...scanning for warm-bodied life forms, captain... \"  \n...that, just as in aerial photography, some thermal scanner systems view the surface",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 279,
+          "char_count": 437,
+          "word_count": 69,
+          "similarity_score": 0.48229992389678955
+        },
+        {
+          "id": "a59e71bb1e6ec08ff585bcaee4bc44d8",
+          "text": ". . . . . . . . . . . . . . . . . . . .\n312\n11.2.3 Stereoscopic vision . . . . . . . . . . . . . . . . . . . . . . .\n315\n11.3 Application of visual image interpretation . . . . . . . . . . . . . .\n317\n11.3.1 Soil mapping with aerial photographs . . . . . . . . . . . .\n318\n11.3.2 Land cover mapping from multispectral data . . . . . . . .\n325\n11.3.3 Some general aspects . . . . . . . . . . . . . . . . . . . . . .\n331\n11.4 Quality aspects\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n333",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 23,
+          "char_count": 501,
+          "word_count": 164,
+          "similarity_score": 0.4814996123313904
+        }
+      ],
+      "retrieval_time": 0.00957345962524414,
+      "generation_time": 0.18915581703186035,
+      "total_time": 0.19873666763305664,
+      "confidence": 0.4844826102256775,
+      "timestamp": "2025-09-04T00:33:17.257724"
+    },
+    {
+      "query": "principle of whiskbroom scanner?",
+      "answer": "",
+      "context_docs": [
+        {
+          "id": "5f5931e54b881a3985f2e6ef247b187a",
+          "text": "next\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\n5.2. Whiskbroom scanner\n157\n5.2.1\nSpectral characteristics\nWhiskbroom scanners use solid state detectors for measuring the energy trans-\nferred by the optical system to the sensor. This optical system focusses the in-\ncoming radiation at the surface of the detector. Various techniques (prism, grat-\nings) are used to split the incoming radiation into spectral components that each\nhave their own detector.",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 314,
+          "char_count": 452,
+          "word_count": 69,
+          "similarity_score": 0.7100328207015991
+        },
+        {
+          "id": "7a5305d4a03e61a94705e40f0281e4a2",
+          "text": "Earth’s surface is scanned systematically line by line as the satellite moves for-\nward. Because of this sweeping motion, the whiskbroom scanner is also known as\nthe across-track scanner (Figure 5.1). The ﬁrst multispectral scanners applied the\nwhiskbroom principle. Today, many scanners are still based on this principle:\nNOAA/AVHRR and Landsat/TM, for instance (Recall: platform/sensor).\nFigure 5.1:\nPrinciple of\nthe whiskbroom scanner\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 313,
+          "char_count": 497,
+          "word_count": 72,
+          "similarity_score": 0.6667104959487915
+        },
+        {
+          "id": "c82fc045ed4af554a9ccbec043ba9d84",
+          "text": "Figure 5.3: Principle of a\npushbroom scanner\nThe pushbroom scanner records one entire line at a time. The principal ad-\nvantage over the whiskbroom scanner is that each position (pixel) in the line has\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\n5.3. Pushbroom scanner\n161\nits own detector. This enables a longer period of measurement over a certain\narea, resulting in less noise and a relatively stable geometry. Since the CCD ele-",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 324,
+          "char_count": 448,
+          "word_count": 75,
+          "similarity_score": 0.6459339261054993
+        },
+        {
+          "id": "13773c8f46bce2f3efb44c2207bf41d5",
+          "text": "135\n4.11\nComparison of different types of photography . . . . . . . . . .\n137\n4.12\nEffect of focal length\n. . . . . . . . . . . . . . . . . . . . . . . . .\n140\n4.13\nA survey area for block photography . . . . . . . . . . . . . . . .\n144\n5.1\nPrinciple of the whiskbroom scanner . . . . . . . . . . . . . . . .\n156\n5.2\nSpectral response curve of a sensor . . . . . . . . . . . . . . . . .\n158\n5.3\nPrinciple of a pushbroom scanner . . . . . . . . . . . . . . . . . .\n160\n5.4",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 34,
+          "char_count": 471,
+          "word_count": 148,
+          "similarity_score": 0.6442385911941528
+        },
+        {
+          "id": "d52f31baf03f1e9d92096dca54699650",
+          "text": "159\n5.2.2\nGeometric characteristics\nAt any instant the mirror of the whiskbroom scanner ‘sees’ a circle-like area on\nthe ground. Directly below the platform (at nadir), the diameter, D, depends on\nthe viewing angle of the system, β, and the height, H:\nD = β × H.\n(5.2)\nD should be expressed in metres, β in radians and H in metres. Consider a\nscanner with β = 2.5 mrad that is operated at 4000 m. Using Formula 5.2 one\ncan easily calculate that the diameter of the area observed under the platform is\n10 m.",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 320,
+          "char_count": 506,
+          "word_count": 95,
+          "similarity_score": 0.6126099824905396
+        }
+      ],
+      "retrieval_time": 0.009603500366210938,
+      "generation_time": 0.1973724365234375,
+      "total_time": 0.2069835662841797,
+      "confidence": 0.6559051632881164,
+      "timestamp": "2025-09-04T00:33:33.822250"
+    },
+    {
+      "query": "what is the spectral response curve of a sensor ?",
+      "answer": "",
+      "context_docs": [
+        {
+          "id": "a58e8bd625cbf35919d9a166eac0fbf3",
+          "text": "where the curve is at 50% of its maximum value. A multispectral scanner uses\na number of detectors to measure a number of bands; each band having its own\ndetector.\nFigure 5.2:\nNormalized\nspectral response curve of\na speciﬁc sensor. It shows\nthat the setting of this band\nranges from approximately\n570 to 710 nm.\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\n5.2. Whiskbroom scanner\n159\n5.2.2\nGeometric characteristics",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 319,
+          "char_count": 431,
+          "word_count": 72,
+          "similarity_score": 0.637407124042511
+        },
+        {
+          "id": "88188aa79416625ace5223a98e3d7e6a",
+          "text": "show the fraction of the incident radiation that is reﬂected as a function of wave-\nlength. From such curve you can ﬁnd the degree of reﬂection for each wave-\nlength (e.g., at 400 nm, 401 nm, 402 nm, ... ). Most remote sensing sensors are\nsensitive to broader wavelength bands, for example from 400–480 nm, and the\ncurve can be used to estimate the overall reﬂectance in such bands. Reﬂectance\ncurves are made for the optical part of the electromagnetic spectrum (up to",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 147,
+          "char_count": 469,
+          "word_count": 83,
+          "similarity_score": 0.6236843466758728
+        },
+        {
+          "id": "6c97db461e39a43a2e7b91cfd036d6a4",
+          "text": "resolution of 25 mW and 10 mW respectively.\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\n5.2. Whiskbroom scanner\n158\nThe other main characteristic of a detector is the spectral sensitivity, which is\nsimilar to ﬁlm sensitivity, as explained in Section 4.3.2. Each detector has a char-\nacteristic graph that is called the spectral response curve (Figure 5.2). The band-\nwidth is usually determined by the difference between the two wavelengths",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 318,
+          "char_count": 456,
+          "word_count": 73,
+          "similarity_score": 0.5794161558151245
+        },
+        {
+          "id": "4890371581c8a18b6f4ecfc88793f16c",
+          "text": "Most common are the panchromatic and infra-red sensitive ﬁlm. The sensitivity\ncurves of these ﬁlms are shown in Figure 4.7.\n(a)\nWavelength (nm)\n400\n500\n600\n700\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\nBlue, Green & Red Sensitive\nRelative Sensitivity\nWavelength (nm)\n400\n500\n600\n700\n800\n900\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\nBlue + Green + Red + Infra Red Sensitive\nRelative Sensitivity\n(b)\nFigure 4.7:\nSpectral\nsensitivity\ncurves\nof\na\npanchromatic ﬁlm (a) and\na black/white infrared ﬁlm\n(b). Note the difference in\nscaling on the x-axis",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 259,
+          "char_count": 509,
+          "word_count": 90,
+          "similarity_score": 0.5726076364517212
+        },
+        {
+          "id": "e0541956a3e1896d03765e9dd028e16e",
+          "text": "energy over the visible portion of the spectrum, but has higher spectral resolution, as it is \nindividually sensitive to the reflected energy at the blue, green, and red wavelengths of the \nspectrum. Thus, it can represent features of various colours based on their reflectance in each \nof these distinct wavelength ranges. \nMany remote sensing systems record energy over several separate wavelength ranges at \nvarious spectral resolutions. These are referred to as multi-spectral sensors and will be",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 122,
+          "char_count": 500,
+          "word_count": 76,
+          "similarity_score": 0.5663813352584839
+        }
+      ],
+      "retrieval_time": 0.009270191192626953,
+      "generation_time": 0.1940913200378418,
+      "total_time": 0.2033698558807373,
+      "confidence": 0.5958993196487427,
+      "timestamp": "2025-09-04T00:33:58.066380"
+    },
+    {
+      "query": "geometric distortions in radar imagery due to terrain elevations",
+      "answer": "",
+      "context_docs": [
+        {
+          "id": "aa985a561b11cdce07236123b404e617",
+          "text": "has to be corrected and transformed into ground range geometry.\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\n6.4. Distortions in radar images\n201\n6.4.2\nTerrain-induced distortions\nSimilarly to optical sensors that can operate in an oblique manner (e.g., SPOT)\nradar images are subject to relief displacements (Figure 6.6). In the case of radar,\nthese distortions can be severe. There are three effects that are typical for radar:\nforeshortening, layover and shadow.\nﬁrst\nprevious\nnext\nlast\nback",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 398,
+          "char_count": 509,
+          "word_count": 79,
+          "similarity_score": 0.7633232474327087
+        },
+        {
+          "id": "e9edb314a554d8d80fb7f907597b2035",
+          "text": "geometry of a radar results in certain geometric \ndistortions on the resultant imagery. However, there \nare key differences for radar imagery which are due \nto the side-looking viewing geometry, and the fact \nthat the radar is fundamentally a distance \nmeasuring device (i.e. measuring range). Slant-\nrange scale distortion occurs because the radar is \nmeasuring the distance to features in slant-range \nrather than the true horizontal distance along the \nground. This results in a varying image scale,",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 352,
+          "char_count": 502,
+          "word_count": 76,
+          "similarity_score": 0.7452646493911743
+        },
+        {
+          "id": "8e137a615fd953d402955101c6f86e98",
+          "text": "\u000e\n\u000f\u0010\r\u0011\u0012\n\u000b\r\u000e\t\n\u000b\u0013\b\f\b\u0010\u0011\t\n\u0014\t\r\u0014\u000f\n\u0015\u000f\n\t\u0014\u0016\u000f\n\b\t\r\f\r\u000e\n\u0015\n\u0017\n\u0018\n\u0018\n\u0017\u000b\u0019\u000f\u001a\t\n\u0018\u0016\u000b\u0011\u000f\u001b\n\u0014\u0013\u000b\r\b\u0012\n\u000b\r\u000e\t\n\u0001\n\u0002\n\u0003\n\u0004\n\u0005\n\u0006\n\u0007\nFigure 6.6:\nGeomet-\nric\ndistortions\nin\nradar\nimagery\ndue\nto\nterrain\nelevations\nﬁrst\nprevious\nnext\nlast\nback\nexit\nzoom\ncontents\nindex\nabout\n6.3. Geometric properties of radar\n195\n6.3.2\nSpatial resolution\nIn radar remote sensing, the images are created from transmitted and backscat-\ntered signals. If each single transmitted pulse forms one element in the image",
+          "source": "principles of remote sensing.pdf",
+          "chunk_index": 390,
+          "char_count": 451,
+          "word_count": 86,
+          "similarity_score": 0.7377272844314575
+        },
+        {
+          "id": "5bfc85c3f4ddcb2281a18c1ef768b2a0",
+          "text": "This conversion comparison shows a radar image in slant-range display (top) where the \nfields and the road in the near range on the left side of the image are compressed, and the \nsame image converted to ground-range display (bottom) with the features in their proper \ngeometric shape. \nSimilar to the distortions encountered when using cameras and scanners, radar images are \nalso subject to geometric distortions due to relief displacement. As with scanner imagery,",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 354,
+          "char_count": 467,
+          "word_count": 73,
+          "similarity_score": 0.6835570931434631
+        },
+        {
+          "id": "688867c417725c11a58687b01c8df990",
+          "text": "local incidence angle is the same as the look angle (B) of the radar. For terrain with any type \nof relief, this is not the case. Generally, slopes facing towards the radar will have small local \nincidence angles, causing relatively strong backscattering to the sensor, which results in a \nbright-toned appearance in an image. \nAs the concept of local incidence angle demonstrates, the relationship between viewing \ngeometry and the geometry of the surface features plays an important role in how the radar",
+          "source": "fundamentals of remote sensing.pdf",
+          "chunk_index": 369,
+          "char_count": 506,
+          "word_count": 82,
+          "similarity_score": 0.6828211545944214
+        }
+      ],
+      "retrieval_time": 0.01007699966430664,
+      "generation_time": 0.19583868980407715,
+      "total_time": 0.20592427253723145,
+      "confidence": 0.722538685798645,
+      "timestamp": "2025-09-04T00:34:27.747018"
+    }
+  ]
+}

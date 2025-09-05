@@ -1,0 +1,532 @@
+{
+  "session_metadata": {
+    "session_id": "session_20250905_110505",
+    "start_time": "2025-09-05T11:05:05.941861",
+    "end_time": "2025-09-05T11:10:30.868059",
+    "total_duration_seconds": 324.926198,
+    "total_queries": 7,
+    "total_processing_time": 72.33387422561646,
+    "total_documents_retrieved": 35,
+    "average_processing_time": 10.333410603659493,
+    "system_stats_timeline": [
+      {
+        "timestamp": "2025-09-05T11:05:38.547669",
+        "query_number": 1,
+        "cpu_percent": 25.1,
+        "ram_used_gb": 33.447601318359375,
+        "ram_total_gb": 1007.6435585021973,
+        "gpu_memory_used_mb": 8709.0,
+        "gpu_memory_total_mb": 40960.0,
+        "gpu_utilization": 15.0,
+        "gpu_temperature": 32.0
+      },
+      {
+        "timestamp": "2025-09-05T11:06:19.445114",
+        "query_number": 2,
+        "cpu_percent": 25.3,
+        "ram_used_gb": 33.435447692871094,
+        "ram_total_gb": 1007.6435585021973,
+        "gpu_memory_used_mb": 8709.0,
+        "gpu_memory_total_mb": 40960.0,
+        "gpu_utilization": 0.0,
+        "gpu_temperature": 33.0
+      },
+      {
+        "timestamp": "2025-09-05T11:06:46.665943",
+        "query_number": 3,
+        "cpu_percent": 25.0,
+        "ram_used_gb": 33.42375183105469,
+        "ram_total_gb": 1007.6435585021973,
+        "gpu_memory_used_mb": 8709.0,
+        "gpu_memory_total_mb": 40960.0,
+        "gpu_utilization": 4.0,
+        "gpu_temperature": 32.0
+      },
+      {
+        "timestamp": "2025-09-05T11:07:46.687932",
+        "query_number": 4,
+        "cpu_percent": 25.0,
+        "ram_used_gb": 33.41633987426758,
+        "ram_total_gb": 1007.6435585021973,
+        "gpu_memory_used_mb": 8709.0,
+        "gpu_memory_total_mb": 40960.0,
+        "gpu_utilization": 0.0,
+        "gpu_temperature": 32.0
+      },
+      {
+        "timestamp": "2025-09-05T11:08:10.920005",
+        "query_number": 5,
+        "cpu_percent": 24.9,
+        "ram_used_gb": 33.40827941894531,
+        "ram_total_gb": 1007.6435585021973,
+        "gpu_memory_used_mb": 8709.0,
+        "gpu_memory_total_mb": 40960.0,
+        "gpu_utilization": 23.0,
+        "gpu_temperature": 33.0
+      },
+      {
+        "timestamp": "2025-09-05T11:09:26.787342",
+        "query_number": 6,
+        "cpu_percent": 25.7,
+        "ram_used_gb": 33.37947082519531,
+        "ram_total_gb": 1007.6435585021973,
+        "gpu_memory_used_mb": 8709.0,
+        "gpu_memory_total_mb": 40960.0,
+        "gpu_utilization": 0.0,
+        "gpu_temperature": 32.0
+      },
+      {
+        "timestamp": "2025-09-05T11:10:26.947895",
+        "query_number": 7,
+        "cpu_percent": 25.0,
+        "ram_used_gb": 33.3839225769043,
+        "ram_total_gb": 1007.6435585021973,
+        "gpu_memory_used_mb": 8709.0,
+        "gpu_memory_total_mb": 40960.0,
+        "gpu_utilization": 10.0,
+        "gpu_temperature": 33.0
+      }
+    ],
+    "model_info": {
+      "max_new_tokens": 1024,
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "do_sample": true,
+      "pad_token_id": 0,
+      "eos_token_id": 1,
+      "repetition_penalty": 1.1,
+      "length_penalty": 1.0,
+      "early_stopping": true,
+      "num_beams": 1
+    },
+    "vector_db_info": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "total_documents": 3058
+    }
+  },
+  "conversation_history": [
+    {
+      "query": "what is the concept of electromagnetic spectrum and its application?",
+      "answer": "Electromagnetic Spectrum(EMR):The amount Of Energy released per unit time and area into space is referred To As Intensity Or Flux Density And Is Measured By A Radiometer.[document 我が国が提供した地球観測データの利用状況と今後の課題].This flux density increases with increasing Wavelength until reaching an extreme value knownas Maximum Brightness Temperature,[ document pdf.].At this pointthe emission becomes so intense That no additional input will cause further increasein intensity; [documents ] rather,it causes reduction through absorption within the source itself.(Figure )In figure three distinct regions exist:[ Document ].These correspondto low,,medium,.and high frequencies respectively.,Each region maybe thoughtOfAs being composedOfelectromagnetic waves having similar properties Such asthe velocity WithWhich they travel Through SpaceAnd other physical attributes.; Each also exhibitsa specific pattern oFIntensity versus WavelengtH Which representsits characteristickinetic behavior..THese differences resultFrom t he various waysThat matter interactsWIt h each individual Typeo fradiation..For example ;lowFrequency radiowaves have wavelengths greater thanOne meter While those belongingTo higherfrequenciesare muchsmaller --betweenTen MicrometersAnD One Millime ter--an dthusAppear visually more Like light Than like heat...",
+      "sources": [
+        {
+          "source": "fundamentals of remote sensing.pdf",
+          "page": 8,
+          "chunk_id": 2,
+          "relevance_score": 0.7388110160827637,
+          "content_preview": "wavelength, the lower the frequency Understanding the  characteristics of electromagnetic radiation in terms of their wavelength and frequency is  crucial to understanding the information to be extrac..."
+        },
+        {
+          "source": "ilovepdf_merged-1.pdf",
+          "page": 15,
+          "chunk_id": 0,
+          "relevance_score": 0.8290378451347351,
+          "content_preview": " Spectral band:  Spectral band means a type of filter that can make only pass  desired wavelength. An EMR ( Electro magnetic radiation) has vast range of energy  consists of different wavelength. Whe..."
+        },
+        {
+          "source": "principles of remote sensing.pdf",
+          "page": 395,
+          "chunk_id": 0,
+          "relevance_score": 0.8641456365585327,
+          "content_preview": "Glossary 395 P Panchromatic Indication of one (wide or narrow) spectral band in the visible and near-infrared part of the electromagnetic spectrum. Passive sensor Sensor that records energy that is pr..."
+        },
+        {
+          "source": "ilovepdf_merged-1.pdf",
+          "page": 3,
+          "chunk_id": 0,
+          "relevance_score": 0.8680604100227356,
+          "content_preview": "Two characteristics of electromagnetic radiation are parti cularly important for understanding remote  sensing. These are the  wavelength and frequency.  Wave Lengths:   A Wave length means the lengt..."
+        },
+        {
+          "source": "Unit-1.pdf",
+          "page": 10,
+          "chunk_id": 5,
+          "relevance_score": 0.8787170052528381,
+          "content_preview": "travel at the speed oflight The radiation can be defined in terms of either their wavelength or frequency.Shorter wavelength radiations (infrared or shorter) are generally described in termsof its wav..."
+        }
+      ],
+      "processing_time": 15.736608028411865,
+      "model_info": {
+        "model": "Gemma-7B",
+        "retrieved_documents": 5,
+        "generation_config": {
+          "max_new_tokens": 1024,
+          "temperature": 0.7,
+          "top_p": 0.9,
+          "do_sample": true,
+          "pad_token_id": 0,
+          "eos_token_id": 1,
+          "repetition_penalty": 1.1,
+          "length_penalty": 1.0,
+          "early_stopping": true,
+          "num_beams": 1
+        }
+      }
+    },
+    {
+      "query": "what are the principles of remote sensing?",
+      "answer": "Principles of remote sensing refers to the methods and techniques used to acquire information about objects or phenomena without physically interacting with them. Remote sensing involves the use of sensors, such as cameras, radar, and lidar, to gather information from a distance, such as from an airplane or satellite. This information can then be processed and analyzed to gain insight into the object or phenomenon being observed.\n\nThe principles of remote sensing involve understanding the interaction between electromagnetic radiation and matter, as well as the properties of different materials and the ability to detect and measure electromagnetic energy. This includes understanding how different materials reflect, absorb, and emit radiation, and how this can be used to infer information about the object or phenomenon being observed.\n\nRemote sensing is widely used in various fields, including agriculture, forestry, geology, and meteorology. It can be used to map vegetation cover, monitor crop health, detect forest fires, map terrain, and measure sea surface temperatures, among other applications.\n\nIn summary, the principles of remote sensing involve understanding the interaction between electromagnetic radiation and matter, as well as the properties of different materials and the ability to detect and measure electromagnetic energy. Remote sensing involves the use of sensors to gather information from a distance, which can then be processed and analyzed to gain insight into the object or phenomenon being observed. This technique is widely used in various fields, including agriculture, forestry, geology, and meteorology.",
+      "sources": [
+        {
+          "source": "principles of remote sensing.pdf",
+          "page": 2,
+          "chunk_id": 0,
+          "relevance_score": 0.39226803183555603,
+          "content_preview": "Principles of Remote Sensing An introductory textbook Editors Lucas L. F. Janssen Gerrit C. Huurneman Authors Wim H. Bakker Lucas L. F. Janssen Colin V. Reeves Ben G. H. Gorte Christine Pohl Michael J..."
+        },
+        {
+          "source": "principles of remote sensing.pdf",
+          "page": 18,
+          "chunk_id": 0,
+          "relevance_score": 0.530536949634552,
+          "content_preview": "Preface Principles of Remote Sensing is the basic textbook on remote sensing for all stu- dents enrolled in the 2000–2001 educational programmes at ITC. As well as being a basic textbook for the insti..."
+        },
+        {
+          "source": "principles of remote sensing.pdf",
+          "page": 20,
+          "chunk_id": 0,
+          "relevance_score": 0.5559308528900146,
+          "content_preview": "Preface 20 How to use the material Principles of Remote Sensing has been produced both as a hard-copy textbook and as an electronic document. In this way, the student is offered the optimal com- binat..."
+        },
+        {
+          "source": "Unit-1.pdf",
+          "page": 2,
+          "chunk_id": 4,
+          "relevance_score": 0.5568905472755432,
+          "content_preview": "fields rather than electromagnetic radiation According to Lillesand and Kiefer (1979), remote sensing is “ the science and art of obtaining useful information about an object, area or phenomenonthroug..."
+        },
+        {
+          "source": "fundamentals of remote sensing.pdf",
+          "page": 5,
+          "chunk_id": 0,
+          "relevance_score": 0.5673671960830688,
+          "content_preview": "1. Introduction to Fundamentals     1.1 What is Remote Sensing?  So, what exactly is remote sensing ? For the purposes of this tutorial, we will use the  following definition:  \"Remote sensing is the ..."
+        }
+      ],
+      "processing_time": 18.344868183135986,
+      "model_info": {
+        "model": "Gemma-7B",
+        "retrieved_documents": 5,
+        "generation_config": {
+          "max_new_tokens": 1024,
+          "temperature": 0.7,
+          "top_p": 0.9,
+          "do_sample": true,
+          "pad_token_id": 0,
+          "eos_token_id": 1,
+          "repetition_penalty": 1.1,
+          "length_penalty": 1.0,
+          "early_stopping": true,
+          "num_beams": 1
+        }
+      }
+    },
+    {
+      "query": "how can errors in remote sensing can be eliminated on device level ?",
+      "answer": "The common error found during the process includes misalignment,incorrect calibration as well.In general it causes due human factor such incorrect positioning etc..",
+      "sources": [
+        {
+          "source": "ilovepdf_merged-1.pdf",
+          "page": 8,
+          "chunk_id": 2,
+          "relevance_score": 0.8908482789993286,
+          "content_preview": "the users of the technology  It is expensive to analyze repetitive photographs if there is need to analyze different aspects of  the photography features.  The instruments used in remote sensing may..."
+        },
+        {
+          "source": "principles of remote sensing.pdf",
+          "page": 30,
+          "chunk_id": 1,
+          "relevance_score": 0.8988311290740967,
+          "content_preview": "phenomenon under investigation [ 16] •Remote sensing is the instrumentation, techniques and methods to observe the Earth’s surface at a distance and to interpret the images or numerical values obtaine..."
+        },
+        {
+          "source": "fundamentals of remote sensing.pdf",
+          "page": 154,
+          "chunk_id": 1,
+          "relevance_score": 0.9280974864959717,
+          "content_preview": "be optimized for visual interpretation Remote sensing devices, particularly those  operated from satellite platforms, must be designed to cope with levels of target/background  energy which are typica..."
+        },
+        {
+          "source": "fundamentals of remote sensing.pdf",
+          "page": 194,
+          "chunk_id": 1,
+          "relevance_score": 0.9318976998329163,
+          "content_preview": "is recovering following a burn Why remote sensing?   Remote sensing can be used to detect and monitor forest fires and the regrowth following a  fire. As a surveillance tool, routine sensing facilitat..."
+        },
+        {
+          "source": "principles of remote sensing.pdf",
+          "page": 30,
+          "chunk_id": 0,
+          "relevance_score": 0.9678941369056702,
+          "content_preview": "1.1. Spatial data acquisition 30 Remote Sensing Deﬁnitions Three deﬁnitions of remote sensing are given below: •Remote sensing is the science of acquiring, processing and interpreting im- ages that re..."
+        }
+      ],
+      "processing_time": 2.9038331508636475,
+      "model_info": {
+        "model": "Gemma-7B",
+        "retrieved_documents": 5,
+        "generation_config": {
+          "max_new_tokens": 1024,
+          "temperature": 0.7,
+          "top_p": 0.9,
+          "do_sample": true,
+          "pad_token_id": 0,
+          "eos_token_id": 1,
+          "repetition_penalty": 1.1,
+          "length_penalty": 1.0,
+          "early_stopping": true,
+          "num_beams": 1
+        }
+      }
+    },
+    {
+      "query": "What are the different types of remote sensing platforms?",
+      "answer": "1. There are two types of remote sensing platform:\na. Aircraft platforms\nb. Satellite platforms\n2. Aircraft platforms\na. Remote sensing is a technology that allows us to collect and analyze data from a distance\nb. This is done using instruments that can detect electromagnetic radiation\nc. These instruments can be mounted on aircraft or spacecraft\nd. Remote sensing can be used for a variety of purposes, including military reconnaissance, land surveying, and environmental monitoring\n3. Satellite platforms\na. Satellite platforms are used for remote sensing because they can be placed in orbit around the Earth\nb. This allows them to collect data from a very wide area\nc. Remote sensing data collected by satellite platforms can be used for a variety of purposes, including environmental monitoring, land surveying, and military reconnaissance\n4. There are a variety of different types of remote sensing platforms, each with their own unique advantages and disadvantages\n5.",
+      "sources": [
+        {
+          "source": "remote_sensing_and_gis_20111212.pdf",
+          "page": 5,
+          "chunk_id": 3,
+          "relevance_score": 0.6715242862701416,
+          "content_preview": "the existing rad iation sources Examples of remote sensing systems of the active type are: Radar, Sonar, and Echo -sounder   and the more recently added Lidar which use laser technology to emit and th..."
+        },
+        {
+          "source": "remote_sensing_and_gis_20111212.pdf",
+          "page": 6,
+          "chunk_id": 0,
+          "relevance_score": 0.6895140409469604,
+          "content_preview": "6 becoming more and mor e frequent in use, often in order to generate topographic maps and  digital elevation models of high resolution. Another trend in the current development is the  use of so call..."
+        },
+        {
+          "source": "fundamentals of remote sensing.pdf",
+          "page": 36,
+          "chunk_id": 0,
+          "relevance_score": 0.6952904462814331,
+          "content_preview": "2.2 Satellite Characterist ics: Orbits and Swaths  We learned in the previous section that remote sensing instruments can be placed on a  variety of platforms to view and image targets. Although groun..."
+        },
+        {
+          "source": "Unit-1.pdf",
+          "page": 2,
+          "chunk_id": 4,
+          "relevance_score": 0.7025693655014038,
+          "content_preview": "fields rather than electromagnetic radiation According to Lillesand and Kiefer (1979), remote sensing is “ the science and art of obtaining useful information about an object, area or phenomenonthroug..."
+        },
+        {
+          "source": "fundamentals of remote sensing.pdf",
+          "page": 165,
+          "chunk_id": 6,
+          "relevance_score": 0.707037091255188,
+          "content_preview": "analyses possible for many applications In the next and final chapter, we will look at examples of various applications of  remote sensing data, many involving the integration of data from different s..."
+        }
+      ],
+      "processing_time": 13.719528675079346,
+      "model_info": {
+        "model": "Gemma-7B",
+        "retrieved_documents": 5,
+        "generation_config": {
+          "max_new_tokens": 1024,
+          "temperature": 0.7,
+          "top_p": 0.9,
+          "do_sample": true,
+          "pad_token_id": 0,
+          "eos_token_id": 1,
+          "repetition_penalty": 1.1,
+          "length_penalty": 1.0,
+          "early_stopping": true,
+          "num_beams": 1
+        }
+      }
+    },
+    {
+      "query": "What role do sensors play in remote sensing systems?",
+      "answer": "Sensors capture electromagnetic waves radiating off distant targets suchas plants, trees.",
+      "sources": [
+        {
+          "source": "fundamentals of remote sensing.pdf",
+          "page": 34,
+          "chunk_id": 1,
+          "relevance_score": 0.6353606581687927,
+          "content_preview": "when we discussed passive vs active sensors and characteristics of images. In this chapter, we will take a closer look at  this component of the remote sensing process  by examining in greater detail,..."
+        },
+        {
+          "source": "fundamentals of remote sensing.pdf",
+          "page": 178,
+          "chunk_id": 4,
+          "relevance_score": 0.6787876486778259,
+          "content_preview": "information to the optical data Combining the information from these two types of sensors  increases the information available for distinguishing each target class and its respective  signature, and t..."
+        },
+        {
+          "source": "fundamentals of remote sensing.pdf",
+          "page": 165,
+          "chunk_id": 6,
+          "relevance_score": 0.6864311695098877,
+          "content_preview": "analyses possible for many applications In the next and final chapter, we will look at examples of various applications of  remote sensing data, many involving the integration of data from different s..."
+        },
+        {
+          "source": "ilovepdf_merged-1.pdf",
+          "page": 1,
+          "chunk_id": 2,
+          "relevance_score": 0.7041668891906738,
+          "content_preview": "economic, planning, and humanitarian applications  What is Remote Sensing?   Remote sensing is the process of detecting and monit oring the physical characteristics of an area by  measuring its refle..."
+        },
+        {
+          "source": "Unit-1.pdf",
+          "page": 3,
+          "chunk_id": 1,
+          "relevance_score": 0.7048457264900208,
+          "content_preview": "derive informationfrom remote sensing data 1.2.2 Remote Sensing System You now know that remote sensing is a tool for gathering information about objects at a distance. However, it is not just about a..."
+        }
+      ],
+      "processing_time": 2.2112011909484863,
+      "model_info": {
+        "model": "Gemma-7B",
+        "retrieved_documents": 5,
+        "generation_config": {
+          "max_new_tokens": 1024,
+          "temperature": 0.7,
+          "top_p": 0.9,
+          "do_sample": true,
+          "pad_token_id": 0,
+          "eos_token_id": 1,
+          "repetition_penalty": 1.1,
+          "length_penalty": 1.0,
+          "early_stopping": true,
+          "num_beams": 1
+        }
+      }
+    },
+    {
+      "query": "how is predictive modelling done in remote sensing using ML",
+      "answer": "Predictive modeling is the process of predicting future events or outcomes based on past observations or data. In the field of remote sensing, this involves analyzing satellite or airborne imagery to make predictions about environmental or climatic conditions.\n\nTo use machine learning algorithms in predictive modeling, the first step is to collect relevant data, such as images or data from sensors, and then analyze this data using machine learning techniques to identify patterns or trends. This can include clustering, classification, or regression algorithms, which are used to extract information from the data and identify relationships between variables.\n\nOnce the patterns or trends have been identified, machine learning models can be trained to make predictions based on this information. The models can then be tested on new data to see how well they perform at predicting future events or outcomes.\n\nIn remote sensing, machine learning algorithms can be used to predict a wide range of outcomes, including land use changes, crop yield, or weather patterns. This allows researchers and scientists to make more informed decisions about resource management and conservation.\n\nAn example of how predictive modeling using machine learning algorithms can be used in remote sensing is in the field of agriculture. Satellite imagery can be used to analyze crop health and predict crop yield, allowing farmers to optimize their planting and irrigation strategies to maximize crop yield and minimize waste.",
+      "sources": [
+        {
+          "source": "ml in RS.pdf",
+          "page": 1,
+          "chunk_id": 9,
+          "relevance_score": 0.3638833463191986,
+          "content_preview": "predictions than traditional methods [3] This paper explores the role of machine learning in predictive modeling within the field of remote sensing. It reviews relate d works  and existing systems tha..."
+        },
+        {
+          "source": "ml in RS.pdf",
+          "page": 6,
+          "chunk_id": 1,
+          "relevance_score": 0.40458860993385315,
+          "content_preview": "Page No. 4116 -4123 6 FUTURE ENHANCEMENTS   The proposed system for predictive modeling in remote sensing using machine learning (ML) algorithms presents significant  advancements in data processing, ..."
+        },
+        {
+          "source": "ml in RS.pdf",
+          "page": 8,
+          "chunk_id": 11,
+          "relevance_score": 0.4085734486579895,
+          "content_preview": "Shaik, Nazeer Shaik, Dr. C Krishna Priya  (2024). Predictive Modeling in Remote Sensing  Using Machine Learning Algorithms. International Journal of Current Science Research and Review, 7(6), 4116 -41..."
+        },
+        {
+          "source": "ml in RS.pdf",
+          "page": 7,
+          "chunk_id": 4,
+          "relevance_score": 0.4289032220840454,
+          "content_preview": "of Earth's resources [25]. 7 CONCLUSION   Predictive modeling in remote sensing using machine learning (ML) algorithms represents a significant advancement in our abil ity  to monitor and predict envi..."
+        },
+        {
+          "source": "ml in RS.pdf",
+          "page": 1,
+          "chunk_id": 1,
+          "relevance_score": 0.4888927936553955,
+          "content_preview": "Available at: www.ijcsrr.org Page No 4116 -4123  Predictive Modeling in Remote Sensing Using Machine Learning Algorithms     Abdul Subhahan Shaik1, Nazeer Shaik2, Dr. C. Krishna Priya3  1Dept of CSE, ..."
+        }
+      ],
+      "processing_time": 17.345365524291992,
+      "model_info": {
+        "model": "Gemma-7B",
+        "retrieved_documents": 5,
+        "generation_config": {
+          "max_new_tokens": 1024,
+          "temperature": 0.7,
+          "top_p": 0.9,
+          "do_sample": true,
+          "pad_token_id": 0,
+          "eos_token_id": 1,
+          "repetition_penalty": 1.1,
+          "length_penalty": 1.0,
+          "early_stopping": true,
+          "num_beams": 1
+        }
+      }
+    },
+    {
+      "query": "quite",
+      "answer": "The correct spelling is \"quite\".",
+      "sources": [
+        {
+          "source": "principles of remote sensing.pdf",
+          "page": 237,
+          "chunk_id": 1,
+          "relevance_score": 1.6322617530822754,
+          "content_preview": "be identiﬁed visually and automatically (a) 34 27 20 17 17 19 20 21 22 21 19 18 16 17 22 28 21 16 15 17 18 18 18 20 19 16 14 14 17 24 23 17 14 14 15 16 15 15 17 16 13 12 14 19 28 17 14 13 12 13 12 11 ..."
+        },
+        {
+          "source": "principles of remote sensing.pdf",
+          "page": 242,
+          "chunk_id": 2,
+          "relevance_score": 1.633904218673706,
+          "content_preview": "by an interpo- lated DN-value (a) 34 27 20 17 17 19 20 21 22 21 19 18 16 17 22 28 21 16 15 17 18 18 18 20 204 16 14 14 17 24 23 17 14 14 15 16 15 15 17 16 13 12 14 19 28 17 14 13 12 13 12 11 12 14 13 ..."
+        },
+        {
+          "source": "principles of remote sensing.pdf",
+          "page": 282,
+          "chunk_id": 1,
+          "relevance_score": 1.6516430377960205,
+          "content_preview": "Perception of colour 282 /MT114/MT101/MT100/MT103/MT114/MT101/MT101/MT110 /MT91/MT48/MT44/MT49/MT44/MT48/MT93 /MT91/MT48/MT44/MT49/MT44/MT49/MT93 /MT91/MT49/MT44/MT48/MT44/MT48/MT93/MT91/MT49/MT44/MT4..."
+        },
+        {
+          "source": "principles of remote sensing.pdf",
+          "page": 288,
+          "chunk_id": 1,
+          "relevance_score": 1.6623318195343018,
+          "content_preview": "Visualization of image data 288 DNNpixPercCumNpix CumPerc 000.00 00.00 1300.00 00.00 1410.00 10.00 1530.00 40.01 1620.00 60.01 51550.08 627 0.86 52590.08 686 0.94 53940.13 780 1.07 541380.19 918 1.26 ..."
+        },
+        {
+          "source": "principles of remote sensing.pdf",
+          "page": 28,
+          "chunk_id": 3,
+          "relevance_score": 1.662930965423584,
+          "content_preview": "world ( Figure 1.2 ) /MT82/MT101/MT97/MT108/MT32/MT119/MT111/MT114/MT108/MT100 /MT83/MT101/MT110/MT115/MT111/MT114 /MT73/MT109/MT97/MT103/MT101/MT32/MT100/MT97/MT116/MT97 /MT79/MT98/MT115/MT101/MT114/..."
+        }
+      ],
+      "processing_time": 2.072469472885132,
+      "model_info": {
+        "model": "Gemma-7B",
+        "retrieved_documents": 5,
+        "generation_config": {
+          "max_new_tokens": 1024,
+          "temperature": 0.7,
+          "top_p": 0.9,
+          "do_sample": true,
+          "pad_token_id": 0,
+          "eos_token_id": 1,
+          "repetition_penalty": 1.1,
+          "length_penalty": 1.0,
+          "early_stopping": true,
+          "num_beams": 1
+        }
+      }
+    }
+  ],
+  "system_performance": {
+    "peak_cpu": 25.7,
+    "peak_ram_gb": 33.447601318359375,
+    "peak_gpu_memory_mb": 8709.0,
+    "peak_gpu_utilization": 23.0,
+    "max_gpu_temperature": 33.0
+  },
+  "conversation_summary": {
+    "unique_sources_accessed": 6,
+    "total_response_length": 5732,
+    "average_response_length": 818.8571428571429,
+    "queries_by_length": {
+      "short_queries": 2,
+      "medium_queries": 5,
+      "long_queries": 0
+    }
+  }
+}

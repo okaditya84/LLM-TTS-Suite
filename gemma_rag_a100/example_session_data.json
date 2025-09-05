@@ -1,0 +1,75 @@
+{
+  "session_metadata": {
+    "session_id": "session_20250905_104800",
+    "start_time": "2025-09-05T10:48:00.000000",
+    "end_time": "2025-09-05T11:15:30.000000",
+    "total_duration_seconds": 1650.0,
+    "total_queries": 3,
+    "total_processing_time": 87.23,
+    "total_documents_retrieved": 15,
+    "average_processing_time": 29.08,
+    "system_stats_timeline": [
+      {
+        "timestamp": "2025-09-05T10:48:56.000000",
+        "query_number": 1,
+        "cpu_percent": 12.5,
+        "ram_used_gb": 16.39,
+        "ram_total_gb": 1007.64,
+        "gpu_memory_used_mb": 8695,
+        "gpu_memory_total_mb": 40960,
+        "gpu_utilization": 85.2,
+        "gpu_temperature": 72.5
+      }
+    ],
+    "model_info": {
+      "max_new_tokens": 1024,
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "do_sample": true,
+      "repetition_penalty": 1.1,
+      "length_penalty": 1.0
+    },
+    "vector_db_info": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "total_documents": 2847
+    }
+  },
+  "conversation_history": [
+    {
+      "query": "what is remote sensing and its applications?",
+      "answer": "Remote sensing is a method of collecting information about an object, area or phenomenon from a distance...",
+      "sources": [
+        {
+          "source": "ilovepdf_merged-1.pdf",
+          "page": 1,
+          "chunk_id": 0,
+          "relevance_score": 0.306,
+          "content_preview": "economic, planning, and humanitarian applications..."
+        }
+      ],
+      "processing_time": 31.14,
+      "model_info": {
+        "model": "Gemma-7B",
+        "retrieved_documents": 5,
+        "generation_config": {}
+      }
+    }
+  ],
+  "system_performance": {
+    "peak_cpu": 15.8,
+    "peak_ram_gb": 16.8,
+    "peak_gpu_memory_mb": 8720,
+    "peak_gpu_utilization": 92.1,
+    "max_gpu_temperature": 76.2
+  },
+  "conversation_summary": {
+    "unique_sources_accessed": 8,
+    "total_response_length": 2847,
+    "average_response_length": 949.0,
+    "queries_by_length": {
+      "short_queries": 2,
+      "medium_queries": 1,
+      "long_queries": 0
+    }
+  }
+}

@@ -1,0 +1,12 @@
+accelerate
+bitsandbytes
+faiss-gpu
+langchain
+langchain-community
+langchain-huggingface
+pypdf
+pynvml
+sentence-transformers
+torch
+transformers
+numpy<2.0.0
