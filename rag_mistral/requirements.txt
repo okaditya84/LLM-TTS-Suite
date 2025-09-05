@@ -1,0 +1,35 @@
+# PyTorch with CUDA support (choose the appropriate CUDA version)
+torch>=2.1.0
+torchvision
+torchaudio
+
+# Core ML libraries
+transformers>=4.35.0
+accelerate>=0.25.0
+
+# vLLM with specific version for stability
+vllm>=0.2.6,<0.3.0
+
+# RAG and vector search
+langchain>=0.1.0
+langchain-community>=0.0.13
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+
+# PDF processing
+PyPDF2>=3.0.1
+pdfplumber>=0.9.0
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Optional: Web interface
+streamlit>=1.28.0
+
+# System monitoring and stats
+psutil>=5.9.0
+GPUtil>=1.4.0
+nvidia-ml-py3>=7.352.0
