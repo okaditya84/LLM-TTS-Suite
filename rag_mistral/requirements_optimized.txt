@@ -1,0 +1,61 @@
+# Core RAG Dependencies
+langchain
+faiss-gpu  # GPU-accelerated FAISS for faster vector search
+sentence-transformers
+transformers
+torch  # Required for torch.compile optimizations
+torchvision
+torchaudio
+
+# Optimized LLM Inference
+vllm  # High-performance LLM inference for A100
+flash-attn  # Flash Attention 2 for memory-efficient attention
+accelerate  # Hugging Face acceleration library
+
+# PDF Processing
+PyPDF2
+pymupdf  # Alternative PDF library for better text extraction
+pdfplumber  # Advanced PDF text extraction
+
+# Performance Monitoring
+psutil
+GPUtil  # GPU monitoring
+nvidia-ml-py3  # NVIDIA GPU monitoring
+pynvml  # Alternative NVIDIA monitoring
+
+# Async and Concurrency
+asyncio-throttle
+aiofiles  # Async file operations
+
+# Data Processing
+numpy
+pandas
+tqdm
+
+# Caching and Optimization
+diskcache  # Persistent caching
+joblib  # Efficient serialization
+lz4  # Fast compression for caching
+
+# Development and Testing
+pytest
+pytest-asyncio
+pytest-benchmark
+memory-profiler
+line-profiler
+
+# Optional GPU Acceleration (uncomment if needed)
+# cupy-cuda11x  # GPU-accelerated NumPy
+# cupyx  # Additional GPU utilities
+
+# Model Quantization (optional for memory optimization)
+# bitsandbytes  # 8-bit and 4-bit quantization
+# auto-gptq  # GPTQ quantization
+
+# Additional ML Utilities
+scikit-learn
+huggingface-hub
+
+# Logging and Monitoring
+rich  # Beautiful terminal output
+wandb  # Optional: Weights & Biases for experiment tracking
